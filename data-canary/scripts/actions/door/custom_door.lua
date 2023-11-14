@@ -10,7 +10,6 @@ for index, value in ipairs(CustomDoorTable) do
 end
 
 local customDoor = Action()
-
 function customDoor.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	if Creature.checkCreatureInsideDoor(player, toPosition) then
 		return true

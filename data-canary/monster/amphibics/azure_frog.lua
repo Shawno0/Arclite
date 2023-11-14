@@ -5,10 +5,10 @@ monster.description = "an azure frog"
 monster.experience = 20
 monster.outfit = {
 	lookType = 226,
-	lookHead = 69,
-	lookBody = 66,
-	lookLegs = 69,
-	lookFeet = 66,
+	lookHead = 87,
+	lookBody = 85,
+	lookLegs = 85,
+	lookFeet = 87,
 	lookAddons = 0,
 	lookMount = 0,
 }
@@ -43,14 +43,14 @@ monster.strategiesTarget = {
 }
 
 monster.flags = {
-	summonable = true,
+	summonable = false,
 	attackable = true,
 	hostile = true,
 	convinceable = true,
 	pushable = false,
 	rewardBoss = false,
 	illusionable = false,
-	canPushItems = false,
+	canPushItems = true,
 	canPushCreatures = false,
 	staticAttackChance = 90,
 	targetDistance = 1,
@@ -70,8 +70,8 @@ monster.light = {
 monster.voices = {
 	interval = 5000,
 	chance = 10,
-	{ text = "Ribbit! Ribbit!", yell = false },
 	{ text = "Ribbit!", yell = false },
+	{ text = "Ribbit! Ribbit!", yell = false },
 }
 
 monster.loot = {
@@ -86,6 +86,7 @@ monster.attacks = {
 monster.defenses = {
 	defense = 5,
 	armor = 8,
+	mitigation = 0.28,
 }
 
 monster.elements = {

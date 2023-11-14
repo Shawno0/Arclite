@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Apocalypse")
 local monster = {}
 
 monster.description = "Apocalypse"
-monster.experience = 550000
+monster.experience = 30000
 monster.outfit = {
 	lookType = 12,
 	lookHead = 38,
@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.health = 160000
-monster.maxHealth = 160000
+monster.health = 125000
+monster.maxHealth = 125000
 monster.race = "fire"
 monster.corpse = 6068
 monster.speed = 350
@@ -67,7 +67,7 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ id = 3025, chance = 13500 }, -- Ancient amulet
+	{ id = 3025, chance = 13500 }, -- ancient amulet
 	{ id = 3116, chance = 19000 }, -- big bone
 	{ name = "black pearl", chance = 15000, maxCount = 35 },
 	{ name = "boots of haste", chance = 14000 },
@@ -77,7 +77,7 @@ monster.loot = {
 	{ name = "demon shield", chance = 15500 },
 	{ name = "devil helmet", chance = 11000 },
 	{ name = "dragon hammer", chance = 34500 },
-	{ id = 3051, chance = 13500 }, -- Energy ring
+	{ id = 3051, chance = 13500 }, -- energy ring
 	{ name = "fire axe", chance = 17000 },
 	{ name = "giant sword", chance = 12500 },
 	{ name = "platinum coin", chance = 69900, maxCount = 100 },
@@ -119,6 +119,7 @@ monster.attacks = {
 monster.defenses = {
 	defense = 145,
 	armor = 188,
+	--	mitigation = ???,
 	{ name = "combat", interval = 1000, chance = 15, type = COMBAT_HEALING, minDamage = 1000, maxDamage = 3000, effect = CONST_ME_MAGIC_BLUE, target = false },
 	{ name = "speed", interval = 2000, chance = 8, speedChange = 480, effect = CONST_ME_MAGIC_RED, target = false, duration = 6000 },
 }
@@ -131,9 +132,9 @@ monster.elements = {
 	{ type = COMBAT_LIFEDRAIN, percent = 100 },
 	{ type = COMBAT_MANADRAIN, percent = 0 },
 	{ type = COMBAT_DROWNDAMAGE, percent = 0 },
-	{ type = COMBAT_ICEDAMAGE, percent = 0 },
+	{ type = COMBAT_ICEDAMAGE, percent = 10 },
 	{ type = COMBAT_HOLYDAMAGE, percent = 0 },
-	{ type = COMBAT_DEATHDAMAGE, percent = 0 },
+	{ type = COMBAT_DEATHDAMAGE, percent = 1 },
 }
 
 monster.immunities = {

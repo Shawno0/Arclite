@@ -12,9 +12,6 @@ local charms = {
 		messageServerLog = "[Wound charm]",
 		effect = CONST_ME_HITAREA,
 		points = 600,
-		sounds = {
-			castSound = SOUND_EFFECT_TYPE_SPELL_BRUTAL_STRIKE,
-		},
 	},
 	-- Enflame charm
 	[2] = {
@@ -29,9 +26,6 @@ local charms = {
 		messageServerLog = "[Enflame charm]",
 		effect = CONST_ME_HITBYFIRE,
 		points = 1000,
-		sounds = {
-			castSound = SOUND_EFFECT_TYPE_SPELL_FLAME_STRIKE,
-		},
 	},
 	-- Poison charm
 	[3] = {
@@ -46,9 +40,6 @@ local charms = {
 		messageServerLog = "[Poison charm]",
 		effect = CONST_ME_GREEN_RINGS,
 		points = 600,
-		sounds = {
-			castSound = SOUND_EFFECT_TYPE_SPELL_TERRA_STRIKE,
-		},
 	},
 	-- Freeze charm
 	[4] = {
@@ -63,9 +54,6 @@ local charms = {
 		messageServerLog = "[Freeze charm]",
 		effect = CONST_ME_ICEATTACK,
 		points = 800,
-		sounds = {
-			castSound = SOUND_EFFECT_TYPE_SPELL_ICE_STRIKE,
-		},
 	},
 	--Zap charm
 	[5] = {
@@ -80,9 +68,6 @@ local charms = {
 		messageServerLog = "[Zap charm]",
 		effect = CONST_ME_ENERGYHIT,
 		points = 800,
-		sounds = {
-			castSound = SOUND_EFFECT_TYPE_SPELL_ENERGY_STRIKE,
-		},
 	},
 	--Curse charm
 	[6] = {
@@ -97,9 +82,6 @@ local charms = {
 		messageServerLog = "[Curse charm]",
 		effect = CONST_ME_SMALLCLOUDS,
 		points = 900,
-		sounds = {
-			castSound = SOUND_EFFECT_TYPE_SPELL_DEATH_STRIKE,
-		},
 	},
 	-- Cripple charm
 	[7] = {
@@ -169,9 +151,6 @@ local charms = {
 		percent = 10,
 		chance = 100,
 		points = 800,
-		sounds = {
-			castSound = SOUND_EFFECT_TYPE_SPELL_BRUTAL_STRIKE,
-		},
 	},
 	-- Scavenge charm
 	[14] = {
@@ -179,10 +158,8 @@ local charms = {
 		description = "Enhances your chances to successfully skin/dust a skinnable/dustable creature.",
 		type = CHARM_PASSIVE,
 		percent = 25,
+		chance = 100,
 		points = 800,
-		sounds = {
-			castSound = SOUND_EFFECT_TYPE_SPELL_BRUTAL_STRIKE,
-		},
 	},
 	-- Gut charm
 	[15] = {
@@ -201,9 +178,6 @@ local charms = {
 		percent = 8,
 		chance = 100,
 		points = 2000,
-		sounds = {
-			castSound = SOUND_EFFECT_TYPE_SPELL_BRUTAL_STRIKE,
-		},
 	},
 	-- Divine wrath charm
 	[17] = {
@@ -218,16 +192,13 @@ local charms = {
 		messageServerLog = "[Divine charm]",
 		effect = CONST_ME_HOLYDAMAGE,
 		points = 1500,
-		sounds = {
-			castSound = SOUND_EFFECT_TYPE_SPELL_HOLY_FLASH,
-		},
 	},
 	-- Vampiric embrace charm
 	[18] = {
 		name = "Vampiric Embrace",
 		description = "Adds 4% Life Leech to attacks if wearing equipment that provides life leech.",
 		type = CHARM_PASSIVE,
-		percent = 4,
+		percent = 400,
 		chance = 100,
 		points = 1500,
 	},
@@ -236,48 +207,46 @@ local charms = {
 		name = "Void's Call",
 		description = "Adds 2% Mana Leech to attacks if wearing equipment that provides mana leech.",
 		type = CHARM_PASSIVE,
-		percent = 2,
+		percent = 200,
 		chance = 100,
 		points = 1500,
 	},
 }
 
-for charmId, chamsTable in ipairs(charms) do
+for charmId, charmsTable in ipairs(charms) do
 	local charm = Game.createBestiaryCharm(charmId - 1)
 	local charmConfig = {}
 
-	if chamsTable.name then
-		charmConfig.name = chamsTable.name
+	local bestiaryRateCharmShopPrice = (configManager.getFloat(configKeys.BESTIARY_RATE_CHARM_SHOP_PRICE) or 1.0)
+	if charmsTable.name then
+		charmConfig.name = charmsTable.name
 	end
-	if chamsTable.description then
-		charmConfig.description = chamsTable.description
+	if charmsTable.description then
+		charmConfig.description = charmsTable.description
 	end
-	if chamsTable.sounds then
-		charmConfig.sounds = chamsTable.sounds
+	if charmsTable.type then
+		charmConfig.type = charmsTable.type
 	end
-	if chamsTable.type then
-		charmConfig.type = chamsTable.type
+	if charmsTable.damageType then
+		charmConfig.damageType = charmsTable.damageType
 	end
-	if chamsTable.damageType then
-		charmConfig.damageType = chamsTable.damageType
+	if charmsTable.percent then
+		charmConfig.percent = charmsTable.percent
 	end
-	if chamsTable.percent then
-		charmConfig.percent = chamsTable.percent
+	if charmsTable.chance then
+		charmConfig.chance = charmsTable.chance
 	end
-	if chamsTable.chance then
-		charmConfig.chance = chamsTable.chance
+	if charmsTable.messageCancel then
+		charmConfig.messageCancel = charmsTable.messageCancel
 	end
-	if chamsTable.messageCancel then
-		charmConfig.messageCancel = chamsTable.messageCancel
+	if charmsTable.messageServerLog then
+		charmConfig.messageServerLog = charmsTable.messageServerLog
 	end
-	if chamsTable.messageServerLog then
-		charmConfig.messageServerLog = chamsTable.messageServerLog
+	if charmsTable.effect then
+		charmConfig.effect = charmsTable.effect
 	end
-	if chamsTable.effect then
-		charmConfig.effect = chamsTable.effect
-	end
-	if chamsTable.points then
-		charmConfig.points = chamsTable.points
+	if charmsTable.points then
+		charmConfig.points = math.ceil(charmsTable.points * bestiaryRateCharmShopPrice)
 	end
 
 	-- Create charm and egister charmConfig table

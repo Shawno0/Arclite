@@ -3,8 +3,8 @@ combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_GREEN)
 combat:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
 
 local condition = Condition(CONDITION_HASTE)
-condition:setParameter(CONDITION_PARAM_TICKS, 33000)
-condition:setFormula(0.3, -24, 0.3, -24)
+condition:setParameter(CONDITION_PARAM_TICKS, 30000)
+condition:setFormula(0.3, -0, 0.3, -0)
 combat:addCondition(condition)
 
 local spell = Spell("instant")
@@ -19,8 +19,8 @@ function spell.onCastSpell(creature, variant)
 				local deltaSpeed = math.max(creature:getBaseSpeed() - summon:getBaseSpeed(), 0)
 				local FamiliarSpeed = ((summon:getBaseSpeed() + deltaSpeed) * 0.3) - 24
 				local FamiliarHaste = Condition(CONDITION_HASTE)
-				FamiliarHaste:setParam(CONDITION_PARAM_TICKS, 33000)
-				FamiliarHaste:setParam(CONDITION_PARAM_SPEED, FamiliarSpeed)
+				FamiliarHaste:setParameter(CONDITION_PARAM_TICKS, 33000)
+				FamiliarHaste:setParameter(CONDITION_PARAM_SPEED, FamiliarSpeed)
 				summon:addCondition(FamiliarHaste)
 			end
 		end

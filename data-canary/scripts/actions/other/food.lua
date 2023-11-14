@@ -1,13 +1,14 @@
-local setting = {
-	--[itemid] = {foodvalue, saytext}
-	[169] = { 9, "Urgh." }, -- scarab cheese
-	[836] = { 4, "Crunch." }, -- walnut
-	[841] = { 4, "Crunch." }, -- peanut
-	[901] = { 60, "Munch." }, -- marlin
+local foods = {
+	[3606] = { 6, "Gulp." }, -- egg
 	[3250] = { 5, "Crunch." }, -- carrot
 	[3577] = { 15, "Munch." }, -- meat
+	[21145] = { 15, "Burp." }, -- bottle of glooth wine
+	[21144] = { 15, "Slurp." }, -- bowl of glooth soup
+	[21143] = { 10, "Munch." }, -- bowl of glooth soup
 	[3578] = { 12, "Munch." }, -- fish
 	[3579] = { 10, "Mmmm." }, -- salmon
+	[23535] = { 30, "Mmmm." }, -- energy bar
+	[23545] = { 30, "Mmmm." }, -- energy drink
 	[3580] = { 17, "Munch." }, -- northern pike
 	[3581] = { 4, "Gulp." }, -- shrimp
 	[3582] = { 30, "Chomp." }, -- ham
@@ -21,6 +22,7 @@ local setting = {
 	[3590] = { 1, "Yum." }, -- cherry
 	[3591] = { 2, "Yum." }, -- strawberry
 	[3592] = { 9, "Yum." }, -- grapes
+	[904] = { 9, "Hum." }, -- cream cake
 	[3593] = { 20, "Yum." }, -- melon
 	[3594] = { 17, "Munch." }, -- pumpkin
 	[3595] = { 5, "Crunch." }, -- carrot
@@ -31,7 +33,6 @@ local setting = {
 	[3600] = { 10, "Crunch." }, -- bread
 	[3601] = { 3, "Crunch." }, -- roll
 	[3602] = { 8, "Crunch." }, -- brown bread
-	[3606] = { 6, "Gulp." }, -- egg
 	[3607] = { 9, "Smack." }, -- cheese
 	[3723] = { 9, "Munch." }, -- white mushroom
 	[3724] = { 4, "Munch." }, -- red mushroom
@@ -44,7 +45,9 @@ local setting = {
 	[3731] = { 36, "Munch." }, -- fire mushroom
 	[3732] = { 5, "Munch." }, -- green mushroom
 	[5096] = { 4, "Yum." }, -- mango
-	[6125] = { 8, "Gulp." }, -- tortoise egg
+	[20310] = { 4, "Mmmm." }, -- christmas cookie tray
+	[5678] = { 8, "Gulp." }, -- tortoise egg
+	[6125] = { 8, "Gulp." }, -- tortoise egg from nargor
 	[6277] = { 10, "Mmmm." }, -- cake
 	[6278] = { 15, "Mmmm." }, -- decorated cake
 	[6392] = { 12, "Mmmm." }, -- valentine's cake
@@ -59,12 +62,16 @@ local setting = {
 	[6574] = { 5, "Mmmm." }, -- bar of chocolate
 	[7158] = { 15, "Munch." }, -- rainbow trout
 	[7159] = { 13, "Munch." }, -- green perch
-	[7372] = { 2, "Yum." }, -- ice cream cone (crispy chocolate chips)
+	[229] = { 2, "Yum." }, -- ice cream cone (crispy chocolate chips)
 	[7373] = { 2, "Yum." }, -- ice cream cone (velvet vanilla)
 	[7374] = { 2, "Yum." }, -- ice cream cone (sweet strawberry)
 	[7375] = { 2, "Yum." }, -- ice cream cone (chilly cherry)
 	[7376] = { 2, "Yum." }, -- ice cream cone (mellow melon)
 	[7377] = { 2, "Yum." }, -- ice cream cone (blue-barian)
+	[836] = { 4, "Crunch." }, -- walnut
+	[841] = { 4, "Crunch." }, -- peanut
+	[901] = { 60, "Munch." }, -- marlin
+	[169] = { 9, "Urgh." }, -- scarab cheese
 	[8010] = { 10, "Gulp." }, -- potato
 	[8011] = { 5, "Yum." }, -- plum
 	[8012] = { 1, "Yum." }, -- raspberry
@@ -73,10 +80,10 @@ local setting = {
 	[8015] = { 5, "Crunch." }, -- onion
 	[8016] = { 1, "Gulp." }, -- jalapeño pepper
 	[8017] = { 5, "Munch." }, -- beetroot
-	[8018] = { 11, "Yum." }, -- chocolate cake
-	[8019] = { 7, "Slurp." }, -- yummy gummy worm
+	[8019] = { 11, "Yum." }, -- chocolate cake
+	[8177] = { 7, "Slurp." }, -- yummy gummy worm
+	[8194] = { 0, "Urgh.", CONST_ME_MAGIC_BLUE }, -- garlic bread
 	[8197] = { 5, "Crunch." }, -- bulb of garlic
-	[9083] = { 0, "Slurp." }, -- banana chocolate shake
 	[9537] = { 0, "Your head begins to feel better." }, -- headache pill
 	[10329] = { 15, "Yum." }, -- rice ball
 	[10453] = { 3, "Urgh." }, -- terramite eggs
@@ -93,39 +100,57 @@ local setting = {
 	[14084] = { 14, "Urgh." }, -- larvae
 	[14085] = { 15, "Munch." }, -- deepling filet
 	[14681] = { 60, "Mmmm." }, -- anniversary cake
+	[15795] = { 0, "Phew!" }, -- stale mushroom beer
 	[16103] = { 33, "Munch." }, -- mushroom pie
 	[17457] = { 10, "Urgh." }, -- insectoid eggs
 	[17820] = { 15, "Smack." }, -- soft cheese
 	[17821] = { 12, "Smack." }, -- rat cheese
-	[22185] = { 12, "Yum." }, -- prickly pear
-	[22187] = { 60, "Chomp." }, -- roasted meat
-	[23535] = { 30, "Mmmm." }, -- energy bar
-	[23545] = { 18, "Mmmm." }, -- energy drink
+	[21146] = { 25, "Chomp." }, -- glooth steak
+	[22187] = { 25, "Chomp." }, -- Roasted Meat
+	[22185] = { 8, "Yum." }, -- pickle pear
+	[24382] = { 20, "Urgh." }, -- bug meat
+	[24383] = { 10, "Gulp." }, -- cave turnip
+	[24396] = { 60, "Mmmm." }, -- birthday cake
+	[24948] = { 10, "Slurp." }, -- bottle of tibian wine
+	[25692] = { 15, "Mmmmm!" }, -- fresh fruit
+	[30198] = { 40, "Mmmmm!" }, -- meringue cake
+	[30202] = { 15, "Slurp." }, -- winterberry liquor
+	[31560] = { 40, "Slurp." }, -- goanna meat
+	[32069] = { 15, "Slurp." }, -- candy floss
+	[37530] = { 10, "Slurp." }, -- bottle of champagne
+	[37531] = { 5, "Mmmm." }, -- candy floss
+	[37532] = { 15, "Mmmm." }, -- ice cream cone
+	[37533] = { 60, "Mmmm." }, -- birthday layer cake
 }
 
 local food = Action()
-
 function food.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-	local itemFood = setting[item.itemid]
+	local bloodBrothersStorage = Storage.Quest.U8_4.BloodBrothers
+	local itemFood = foods[item.itemid]
+	local effect = itemFood[3]
 	if not itemFood then
 		return false
 	end
-
 	local condition = player:getCondition(CONDITION_REGENERATION, CONDITIONID_DEFAULT)
 	if condition and math.floor(condition:getTicks() / 1000 + (itemFood[1] * 12)) >= 1200 then
 		player:sendTextMessage(MESSAGE_FAILURE, "You are full.")
 		return true
 	end
-
+	if item.itemid == 8194 and player:getStorageValue(bloodBrothersStorage.GarlicBread) == 0 then
+		player:setStorageValue(bloodBrothersStorage.GarlicBread, 1)
+	end
 	player:feed(itemFood[1] * 12)
 	player:say(itemFood[2], TALKTYPE_MONSTER_SAY)
 	item:remove(1)
 	player:updateSupplyTracker(item)
 	player:getPosition():sendSingleSoundEffect(SOUND_EFFECT_TYPE_ACTION_EAT, player:isInGhostMode() and nil or player)
+	if effect then
+		player:getPosition():sendMagicEffect(effect)
+	end
 	return true
 end
 
-for index, value in pairs(setting) do
+for index, value in pairs(foods) do
 	food:id(index)
 end
 

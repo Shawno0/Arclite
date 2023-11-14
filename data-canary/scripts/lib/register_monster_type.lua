@@ -24,6 +24,11 @@ registerMonsterType.description = function(mtype, mask)
 		mtype:nameDescription(mask.description)
 	end
 end
+registerMonsterType.variant = function(mtype, mask)
+	if mask.variant then
+		mtype:variant(mask.variant)
+	end
+end
 registerMonsterType.experience = function(mtype, mask)
 	if mask.experience then
 		mtype:experience(mask.experience)
@@ -68,9 +73,6 @@ end
 registerMonsterType.bosstiary = function(mtype, mask)
 	local bossClass = nil
 	if mask.bosstiary then
-		if mask.bosstiary.bossRaceId then
-			mtype:bossRaceId(mask.bosstiary.bossRaceId)
-		end
 		if mask.bosstiary.bossRace then
 			if mask.bosstiary.bossRace == RARITY_BANE then
 				bossClass = "Bane"
@@ -79,14 +81,17 @@ registerMonsterType.bosstiary = function(mtype, mask)
 			elseif mask.bosstiary.bossRace == RARITY_NEMESIS then
 				bossClass = "Nemesis"
 			end
-			if bossClass ~= nil then
-				mtype:bossRace(mask.bosstiary.bossRace, bossClass)
-			end
-			local storage = mask.bosstiary.storageCooldown
-			if storage ~= nil then
-				mtype:bossStorageCooldown(storage)
-			end
 		end
+		if bossClass == nil then
+			Spdlog.error(string.format("Attempting to register a bosstiary boss without a race. Boss name: %s", mtype:name()))
+			return
+		end
+		if mask.bosstiary.bossRaceId then
+			mtype:bossRaceId(mask.bosstiary.bossRaceId)
+		else
+			Spdlog.error(string.format("Attempting to register a bosstiary boss without a raceId. Boss name: %s", mtype:name()))
+		end
+		mtype:bossRace(mask.bosstiary.bossRace, bossClass)
 	end
 end
 registerMonsterType.skull = function(mtype, mask)
@@ -192,6 +197,9 @@ registerMonsterType.flags = function(mtype, mask)
 		end
 		if mask.flags.canPushCreatures ~= nil then
 			mtype:canPushCreatures(mask.flags.canPushCreatures)
+		end
+		if mask.flags.critChance ~= nil then
+			mtype:critChance(mask.flags.critChance)
 		end
 		if mask.flags.targetDistance then
 			mtype:targetDistance(math.max(1, mask.flags.targetDistance))

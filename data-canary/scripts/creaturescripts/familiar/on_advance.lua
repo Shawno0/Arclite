@@ -2,11 +2,7 @@ local familiarOnAdvance = CreatureEvent("FamiliarAdvance")
 
 function familiarOnAdvance.onAdvance(player, skill, oldLevel, newLevel)
 	local vocation = FAMILIAR_ID[player:getVocation():getBaseId()]
-	if newLevel < 200 and not player:isPremium() then
-		return true
-	end
-
-	if vocation then
+	if vocation and newLevel >= 200 and isPremium(player) then
 		if player:getFamiliarLooktype() == 0 then
 			player:setFamiliarLooktype(vocation.id)
 		end

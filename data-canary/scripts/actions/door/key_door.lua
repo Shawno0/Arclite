@@ -1,7 +1,6 @@
 local doorId = {}
 local keyLockedDoor = {}
 local keyUnlockedDoor = {}
-
 for index, value in ipairs(KeyDoorTable) do
 	if not table.contains(doorId, value.closedDoor) then
 		table.insert(doorId, value.closedDoor)
@@ -27,11 +26,10 @@ for index, value in pairs(keysID) do
 end
 
 local keyDoor = Action()
-
 function keyDoor.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	-- It is locked msg
 	if table.contains(keyLockedDoor, item.itemid) or (table.contains(keyUnlockedDoor, item.itemid) and table.contains({ 1001, 101 }, item.actionid)) then
-		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is locked.")
+		player:sendTextMessage(MESSAGE_INFO_DESCR, "It is locked.")
 		return true
 	end
 
@@ -70,7 +68,7 @@ function keyDoor.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			end
 		end
 	end
-	return player:sendCancelMessage(RETURNVALUE_CANNOTUSETHISOBJECT)
+	return false
 end
 
 for key, value in pairs(doorId) do

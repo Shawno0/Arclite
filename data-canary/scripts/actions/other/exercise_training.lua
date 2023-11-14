@@ -1,13 +1,23 @@
 local exerciseTraining = Action()
 
+local maxAllowedOnADummy = configManager.getNumber(configKeys.MAX_ALLOWED_ON_A_DUMMY)
+local dummies = Game.getDummies()
+local function isDummy(id)
+	return dummies[id] and dummies[id] > 0
+end
+
+local cooldown = 10
+
 function exerciseTraining.onUse(player, item, fromPosition, target, toPosition, isHotkey)
+	if not target then
+		return
+	end
 	local playerId = player:getId()
 	local targetId = target:getId()
 
-	if target:isItem() and (table.contains(HouseDummies, targetId) or table.contains(FreeDummies, targetId)) then
+	if target:isItem() and isDummy(targetId) then
 		if onExerciseTraining[playerId] then
-			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "This exercise dummy can only be used after a 30 second cooldown.")
-			LeaveTraining(playerId)
+			player:sendTextMessage(MESSAGE_FAILURE, "You are already training!")
 			return true
 		end
 
@@ -22,16 +32,22 @@ function exerciseTraining.onUse(player, item, fromPosition, target, toPosition, 
 			return true
 		end
 
+		local playerHouse = player:getTile():getHouse()
 		local targetPos = target:getPosition()
+		local targetHouse = Tile(targetPos):getHouse()
 
-		if table.contains(HouseDummies, targetId) then
+		if targetHouse and isDummy(targetId) then
+			if playerHouse ~= targetHouse then
+				player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You must be inside the house to use this dummy.")
+				return true
+			end
 			local playersOnDummy = 0
 			for _, playerTraining in pairs(onExerciseTraining) do
 				if playerTraining.dummyPos == targetPos then
 					playersOnDummy = playersOnDummy + 1
 				end
 
-				if playersOnDummy == MaxAllowedOnADummy then
+				if playersOnDummy >= maxAllowedOnADummy then
 					player:sendTextMessage(MESSAGE_FAILURE, "That exercise dummy is busy.")
 					return true
 				end
@@ -39,7 +55,7 @@ function exerciseTraining.onUse(player, item, fromPosition, target, toPosition, 
 		end
 
 		if player:getStorageValue(Storage.IsTraining) > os.time() then
-			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "This exercise dummy can only be used after a 30 second cooldown.")
+			player:sendTextMessage(MESSAGE_FAILURE, "You are already training!")
 			return true
 		end
 
@@ -48,7 +64,8 @@ function exerciseTraining.onUse(player, item, fromPosition, target, toPosition, 
 			onExerciseTraining[playerId].event = addEvent(ExerciseEvent, 0, playerId, targetPos, item.itemid, targetId)
 			onExerciseTraining[playerId].dummyPos = targetPos
 			player:setTraining(true)
-			player:setStorageValue(Storage.IsTraining, os.time() + 30)
+			player:setStorageValue(Storage.IsTraining, os.time() + cooldown)
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have started training on an exercise dummy.")
 		end
 		return true
 	end

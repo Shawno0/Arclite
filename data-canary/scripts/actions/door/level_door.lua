@@ -1,5 +1,4 @@
 local doorIds = {}
-
 for index, value in ipairs(LevelDoorTable) do
 	if not table.contains(doorIds, value.openDoor) then
 		table.insert(doorIds, value.openDoor)
@@ -11,7 +10,6 @@ for index, value in ipairs(LevelDoorTable) do
 end
 
 local levelDoor = Action()
-
 function levelDoor.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	for index, value in ipairs(LevelDoorTable) do
 		if value.closedDoor == item.itemid then

@@ -583,6 +583,8 @@ void Combat::CombatHealthFunc(std::shared_ptr<Creature> caster, std::shared_ptr<
 			}
 		}
 
+		damage.damageMultiplier += attackerPlayer->getVocation()->magicDamageMultiplier;
+
 		damage.damageMultiplier += attackerPlayer->wheel()->getMajorStatConditional("Divine Empowerment", WheelMajor_t::DAMAGE);
 		g_logger().debug("Wheel Divine Empowerment damage multiplier {}", damage.damageMultiplier);
 	}

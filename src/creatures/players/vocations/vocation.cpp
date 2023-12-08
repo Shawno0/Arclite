@@ -154,6 +154,11 @@ bool Vocations::loadFromXml() {
 					voc.distDamageMultiplier = pugi::cast<float>(distDamageAttribute.value());
 				}
 
+				pugi::xml_attribute magicDamageAttribute = childNode.attribute("magicDamage");
+				if (distDamageAttribute) {
+					voc.magicDamageMultiplier = pugi::cast<float>(magicDamageAttribute.value());
+				}
+
 				pugi::xml_attribute defenseAttribute = childNode.attribute("defense");
 				if (defenseAttribute) {
 					voc.defenseMultiplier = pugi::cast<float>(defenseAttribute.value());

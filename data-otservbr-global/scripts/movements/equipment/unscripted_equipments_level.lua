@@ -20037,23 +20037,23 @@ local items = {
 	},
 }
 
-for _, i in ipairs(items) do
-	local movement = MoveEvent()
-	movement:id(i.itemid or i.itemId)
+-- for _, i in ipairs(items) do
+	-- local movement = MoveEvent()
+	-- movement:id(i.itemid or i.itemId)
 
-	if i.type then
-		movement:type(i.type)
-	end
-	if i.slot then
-		movement:slot(i.slot)
-	end
-	if i.level then
-		movement:level(i.level)
-	end
-	if i.vocation then
-		for _, v in ipairs(i.vocation) do
-			movement:vocation(v[1], v[2] or false, v[3] or false)
-		end
-	end
-	movement:register()
-end
+	-- if i.type then
+		-- movement:type(i.type)
+	-- end
+	-- if i.slot then
+		-- movement:slot(i.slot)
+	-- end
+	-- if i.level then
+		-- movement:level(i.level)
+	-- end
+	-- if i.vocation then
+		-- for _, v in ipairs(i.vocation) do
+			-- movement:vocation(v[1], v[2] or false, v[3] or false)
+		-- end
+	-- end
+	-- movement:register()
+-- end

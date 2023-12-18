@@ -5345,36 +5345,36 @@ local weapons = {
 	},
 }
 
-for _, w in ipairs(weapons) do
-	local weapon = Weapon(w.type)
-	weapon:id(w.itemid or w.itemId)
+-- for _, w in ipairs(weapons) do
+	-- local weapon = Weapon(w.type)
+	-- weapon:id(w.itemid or w.itemId)
 
-	if w.action then
-		weapon:action(w.action)
-	end
-	if w.breakchance or w.breakChance then
-		weapon:breakChance(w.breakchance or w.breakChance)
-	end
-	if w.level then
-		weapon:level(w.level)
-	end
-	if w.mana then
-		weapon:mana(w.mana)
-	end
-	if w.unproperly then
-		weapon:wieldUnproperly(w.unproperly)
-	end
-	if w.damage then
-		weapon:damage(w.damage[1], w.damage[2])
-	end
-	if w.wandtype or w.wandType then
-		weapon:element(w.wandtype or w.wandType)
-	end
-	if w.vocation then
-		for _, v in ipairs(w.vocation) do
-			weapon:vocation(v[1], v[2] or false, v[3] or false)
-		end
-	end
+	-- if w.action then
+		-- weapon:action(w.action)
+	-- end
+	-- if w.breakchance or w.breakChance then
+		-- weapon:breakChance(w.breakchance or w.breakChance)
+	-- end
+	-- if w.level then
+		-- weapon:level(w.level)
+	-- end
+	-- if w.mana then
+		-- weapon:mana(w.mana)
+	-- end
+	-- if w.unproperly then
+		-- weapon:wieldUnproperly(w.unproperly)
+	-- end
+	-- if w.damage then
+		-- weapon:damage(w.damage[1], w.damage[2])
+	-- end
+	-- if w.wandtype or w.wandType then
+		-- weapon:element(w.wandtype or w.wandType)
+	-- end
+	-- if w.vocation then
+		-- for _, v in ipairs(w.vocation) do
+			-- weapon:vocation(v[1], v[2] or false, v[3] or false)
+		-- end
+	-- end
 
-	weapon:register()
-end
+	-- weapon:register()
+-- end

@@ -41936,14 +41936,14 @@
 		<attribute key="weight" value="3500"/>
 	</item>
 	<item id="23474" article="a" name="tiara of power">
-		
+		<attribute key="description" value="It can only be wielded properly by sorcerers and druids of level 100 or higher."/>
 		<attribute key="stopduration" value="1"/>
 		<attribute key="showduration" value="1"/>
 		<attribute key="transformequipto" value="23475"/>
 		<attribute key="weight" value="1150"/>
 	</item>
 	<item id="23475" article="a" name="tiara of power">
-		
+		<attribute key="description" value="It can only be wielded properly by sorcerers and druids of level 100 or higher."/>
 		<attribute key="showduration" value="1"/>
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbpercentenergy" value="8"/>
@@ -41960,7 +41960,7 @@
 	</item>
 	<item id="23476" name="void boots">
 		<attribute key="primarytype" value="boots"/>
-		
+		<attribute key="description" value="It can only be wielded properly by players of level 150 or higher."/>
 		<attribute key="showduration" value="1"/>
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbpercentenergy" value="10"/>
@@ -41977,7 +41977,7 @@
 	</item>
 	<item id="23477" name="void boots">
 		<attribute key="primarytype" value="boots"/>
-		
+		<attribute key="description" value="It can only be wielded properly by players of level 150 or higher."/>
 		<attribute key="stopduration" value="1"/>
 		<attribute key="showduration" value="1"/>
 		<attribute key="transformequipto" value="23476"/>

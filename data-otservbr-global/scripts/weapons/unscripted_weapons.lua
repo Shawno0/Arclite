@@ -5609,6 +5609,16 @@ local weapons = {
 		type = WEAPON_MISSILE,
 		breakchance = 3,
 	},
+	{
+		-- bow of skorm
+		itemid = 44183,
+		type = WEAPON_DISTANCE,
+		unproperly = true,
+		vocation = {
+			{ "Paladin", true },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
+		},
+	},
 }
 
 for _, w in ipairs(weapons) do

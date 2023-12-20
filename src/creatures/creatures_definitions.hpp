@@ -7,6 +7,8 @@
  * Website: https://docs.opentibiabr.com/
  */
 
+#include <map>
+
 #pragma once
 
 // Enum

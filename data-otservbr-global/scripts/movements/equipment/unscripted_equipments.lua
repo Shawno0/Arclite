@@ -7,8 +7,7 @@ local items = {
 		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
-			{ "Arch Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -19,8 +18,7 @@ local items = {
 		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
-			{ "Arch Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -31,8 +29,7 @@ local items = {
 		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
-			{ "Arch Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -43,8 +40,7 @@ local items = {
 		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
-			{ "Arch Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -55,8 +51,7 @@ local items = {
 		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
-			{ "Arch Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -67,8 +62,7 @@ local items = {
 		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
-			{ "Arch Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -79,8 +73,7 @@ local items = {
 		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
-			{ "Magus Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -91,8 +84,7 @@ local items = {
 		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
-			{ "Magus Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -103,8 +95,7 @@ local items = {
 		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
-			{ "Magus Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -115,8 +106,7 @@ local items = {
 		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
-			{ "Magus Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -127,8 +117,7 @@ local items = {
 		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
-			{ "Magus Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -139,8 +128,7 @@ local items = {
 		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
-			{ "Magus Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -151,8 +139,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -163,8 +150,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -175,8 +161,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -187,8 +172,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -199,8 +183,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -211,8 +194,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -223,8 +205,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -235,8 +216,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -247,8 +227,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -259,8 +238,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -271,8 +249,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -283,8 +260,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -295,8 +271,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -307,8 +282,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -319,8 +293,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -331,8 +304,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -343,8 +315,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -355,8 +326,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -367,8 +337,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -379,8 +348,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -391,8 +359,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -403,8 +370,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -415,8 +381,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -427,8 +392,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -439,8 +403,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -451,8 +414,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -463,8 +425,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -475,8 +436,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -487,8 +447,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -499,8 +458,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -511,8 +469,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -523,8 +480,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -535,8 +491,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -547,8 +502,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -559,8 +513,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -571,8 +524,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -583,8 +535,7 @@ local items = {
 		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
-			{ "Arch Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -602,8 +553,7 @@ local items = {
 		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
-			{ "Magus Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -621,8 +571,7 @@ local items = {
 		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
-			{ "Arch Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -640,8 +589,7 @@ local items = {
 		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
-			{ "Magus Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -659,8 +607,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -678,8 +625,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -697,8 +643,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -716,8 +661,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -795,8 +739,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -813,8 +756,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -831,8 +773,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
-			{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -849,8 +790,7 @@ local items = {
 		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
-			{ "Arch Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -867,8 +807,7 @@ local items = {
 		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
-			{ "Arch Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -885,8 +824,7 @@ local items = {
 		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
-			{ "Arch Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -903,8 +841,7 @@ local items = {
 		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
-			{ "Magus Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -921,8 +858,7 @@ local items = {
 		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
-			{ "Magus Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -939,8 +875,7 @@ local items = {
 		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
-			{ "Magus Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -957,8 +892,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -975,8 +909,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -993,8 +926,7 @@ local items = {
 		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
-			{ "Holy Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1028,7 +960,7 @@ local items = {
 		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },{ "Templar Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{

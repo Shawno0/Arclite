@@ -68955,4 +68955,23 @@
 		<attribute key="charges" value="14400"/>
 		<attribute key="weight" value="1000"/>
 	</item>
+	<item id="44183" article="a" name="bow of skorm">
+		<attribute key="primarytype" value="distance weapons"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="ammotype" value="arrow"/>
+		<attribute key="absorbpercentfire" value="5"/>
+		<attribute key="skilldist" value="5"/>
+		<attribute key="hitchance" value="10"/>
+		<attribute key="range" value="8"/>
+		<attribute key="attack" value="10"/>
+		<attribute key="weight" value="1337"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="5"/>
+			<attribute key="life leech" value="5"/>
+			<attribute key="mana leech" value="5"/>
+			<attribute key="critical hit" value="5"/>
+			<attribute key="skillboost distance" value="5"/>
+		</attribute>
+	</item>
 </items>

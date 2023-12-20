@@ -4,10 +4,10 @@ local items = {
 		itemid = 43887,
 		type = "equip",
 		slot = "feet",
-		level = 500,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -15,10 +15,10 @@ local items = {
 		itemid = 43887,
 		type = "deequip",
 		slot = "feet",
-		level = 500,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -26,10 +26,10 @@ local items = {
 		itemid = 43886,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -37,10 +37,10 @@ local items = {
 		itemid = 43886,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -48,10 +48,10 @@ local items = {
 		itemid = 43885,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -59,10 +59,10 @@ local items = {
 		itemid = 43885,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -70,10 +70,10 @@ local items = {
 		itemid = 43884,
 		type = "equip",
 		slot = "feet",
-		level = 500,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -81,10 +81,10 @@ local items = {
 		itemid = 43884,
 		type = "deequip",
 		slot = "feet",
-		level = 500,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -92,10 +92,10 @@ local items = {
 		itemid = 43883,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -103,10 +103,10 @@ local items = {
 		itemid = 43883,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -114,10 +114,10 @@ local items = {
 		itemid = 43882,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -125,10 +125,10 @@ local items = {
 		itemid = 43882,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -136,10 +136,10 @@ local items = {
 		itemid = 43881,
 		type = "equip",
 		slot = "legs",
-		level = 500,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -147,10 +147,10 @@ local items = {
 		itemid = 43881,
 		type = "deequip",
 		slot = "legs",
-		level = 500,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -158,10 +158,10 @@ local items = {
 		itemid = 43880,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -169,10 +169,10 @@ local items = {
 		itemid = 43880,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -180,10 +180,10 @@ local items = {
 		itemid = 43879,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -191,10 +191,10 @@ local items = {
 		itemid = 43879,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -202,10 +202,10 @@ local items = {
 		itemid = 43878,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -213,10 +213,10 @@ local items = {
 		itemid = 43878,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -224,10 +224,10 @@ local items = {
 		itemid = 43877,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -235,10 +235,10 @@ local items = {
 		itemid = 43877,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -246,10 +246,10 @@ local items = {
 		itemid = 43876,
 		type = "equip",
 		slot = "legs",
-		level = 500,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -257,10 +257,10 @@ local items = {
 		itemid = 43876,
 		type = "deequip",
 		slot = "legs",
-		level = 500,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -268,10 +268,10 @@ local items = {
 		itemid = 43875,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -279,10 +279,10 @@ local items = {
 		itemid = 43875,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -290,10 +290,10 @@ local items = {
 		itemid = 43874,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -301,10 +301,10 @@ local items = {
 		itemid = 43874,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -312,10 +312,10 @@ local items = {
 		itemid = 43873,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -323,10 +323,10 @@ local items = {
 		itemid = 43873,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -334,10 +334,10 @@ local items = {
 		itemid = 43872,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -345,10 +345,10 @@ local items = {
 		itemid = 43872,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -356,10 +356,10 @@ local items = {
 		itemid = 43871,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -367,10 +367,10 @@ local items = {
 		itemid = 43871,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -378,10 +378,10 @@ local items = {
 		itemid = 43870,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -389,10 +389,10 @@ local items = {
 		itemid = 43870,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -400,10 +400,10 @@ local items = {
 		itemid = 43869,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -411,10 +411,10 @@ local items = {
 		itemid = 43869,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -422,10 +422,10 @@ local items = {
 		itemid = 43868,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -433,10 +433,10 @@ local items = {
 		itemid = 43868,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -444,10 +444,10 @@ local items = {
 		itemid = 43867,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -455,10 +455,10 @@ local items = {
 		itemid = 43867,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -466,10 +466,10 @@ local items = {
 		itemid = 43866,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -477,10 +477,10 @@ local items = {
 		itemid = 43866,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -488,10 +488,10 @@ local items = {
 		itemid = 43865,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -499,10 +499,10 @@ local items = {
 		itemid = 43865,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -510,10 +510,10 @@ local items = {
 		itemid = 43864,
 		type = "equip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -521,10 +521,10 @@ local items = {
 		itemid = 43864,
 		type = "deequip",
 		slot = "hand",
-		level = 600,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -532,10 +532,10 @@ local items = {
 		itemid = 40595,
 		type = "equip",
 		slot = "legs",
-		level = 300,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -543,17 +543,17 @@ local items = {
 		itemid = 40595,
 		type = "deequip",
 		slot = "legs",
-		level = 300,
+		
 	},
 	{
 		-- alchemist's notepad
 		itemid = 40594,
 		type = "equip",
 		slot = "shield",
-		level = 250,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -561,17 +561,17 @@ local items = {
 		itemid = 40594,
 		type = "deequip",
 		slot = "shield",
-		level = 250,
+		
 	},
 	{
 		-- mutant bone boots
 		itemid = 40593,
 		type = "equip",
 		slot = "feet",
-		level = 250,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -579,17 +579,17 @@ local items = {
 		itemid = 40593,
 		type = "deequip",
 		slot = "feet",
-		level = 250,
+		
 	},
 	{
 		-- alchemist's boots
 		itemid = 40592,
 		type = "equip",
 		slot = "feet",
-		level = 250,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -597,17 +597,17 @@ local items = {
 		itemid = 40592,
 		type = "deequip",
 		slot = "feet",
-		level = 250,
+		
 	},
 	{
 		-- mutated skin armor
 		itemid = 40591,
 		type = "equip",
 		slot = "armor",
-		level = 270,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -615,17 +615,17 @@ local items = {
 		itemid = 40591,
 		type = "deequip",
 		slot = "armor",
-		level = 270,
+		
 	},
 	{
 		-- Mutated Skin Legs
 		itemid = 40590,
 		type = "equip",
 		slot = "legs",
-		level = 270,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -633,17 +633,17 @@ local items = {
 		itemid = 40590,
 		type = "deequip",
 		slot = "legs",
-		level = 270,
+		
 	},
 	{
 		-- Stitched Mutant Hide Legs
 		itemid = 40589,
 		type = "equip",
 		slot = "legs",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -651,17 +651,17 @@ local items = {
 		itemid = 40589,
 		type = "deequip",
 		slot = "legs",
-		level = 270,
+		
 	},
 	{
 		-- Antler-Horn Helmet
 		itemid = 40588,
 		type = "equip",
 		slot = "head",
-		level = 250,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -669,7 +669,7 @@ local items = {
 		itemid = 40588,
 		type = "deequip",
 		slot = "head",
-		level = 250,
+		
 	},
 	{
 		-- broken iks cuirass
@@ -736,10 +736,10 @@ local items = {
 		itemid = 39235,
 		type = "equip",
 		slot = "necklace",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -753,10 +753,10 @@ local items = {
 		itemid = 39234,
 		type = "equip",
 		slot = "necklace",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -770,10 +770,10 @@ local items = {
 		itemid = 39233,
 		type = "equip",
 		slot = "necklace",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -787,10 +787,10 @@ local items = {
 		itemid = 39188,
 		type = "equip",
 		slot = "ring",
-		level = 400,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -804,10 +804,10 @@ local items = {
 		itemid = 39187,
 		type = "equip",
 		slot = "ring",
-		level = 400,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -821,10 +821,10 @@ local items = {
 		itemid = 39186,
 		type = "equip",
 		slot = "ring",
-		level = 400,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -838,10 +838,10 @@ local items = {
 		itemid = 39185,
 		type = "equip",
 		slot = "ring",
-		level = 400,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -855,10 +855,10 @@ local items = {
 		itemid = 39184,
 		type = "equip",
 		slot = "ring",
-		level = 400,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -872,10 +872,10 @@ local items = {
 		itemid = 39183,
 		type = "equip",
 		slot = "ring",
-		level = 400,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -889,10 +889,10 @@ local items = {
 		itemid = 39182,
 		type = "equip",
 		slot = "ring",
-		level = 400,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -906,10 +906,10 @@ local items = {
 		itemid = 39181,
 		type = "equip",
 		slot = "ring",
-		level = 400,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -923,10 +923,10 @@ local items = {
 		itemid = 39180,
 		type = "equip",
 		slot = "ring",
-		level = 400,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -940,10 +940,10 @@ local items = {
 		itemid = 39179,
 		type = "equip",
 		slot = "ring",
-		level = 400,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -957,10 +957,10 @@ local items = {
 		itemid = 39178,
 		type = "equip",
 		slot = "ring",
-		level = 400,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -974,10 +974,10 @@ local items = {
 		itemid = 39177,
 		type = "equip",
 		slot = "ring",
-		level = 400,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -991,10 +991,10 @@ local items = {
 		itemid = 39167,
 		type = "equip",
 		slot = "legs",
-		level = 250,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -1008,10 +1008,10 @@ local items = {
 		itemid = 39166,
 		type = "equip",
 		slot = "legs",
-		level = 300,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1025,10 +1025,10 @@ local items = {
 		itemid = 39165,
 		type = "equip",
 		slot = "armor",
-		level = 300,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -1042,10 +1042,10 @@ local items = {
 		itemid = 39164,
 		type = "equip",
 		slot = "armor",
-		level = 270,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1059,10 +1059,10 @@ local items = {
 		itemid = 39163,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -1076,10 +1076,10 @@ local items = {
 		itemid = 39162,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1093,10 +1093,10 @@ local items = {
 		itemid = 39161,
 		type = "equip",
 		slot = "feet",
-		level = 270,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1110,10 +1110,10 @@ local items = {
 		itemid = 39160,
 		type = "equip",
 		slot = "right-hand",
-		level = 250,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1127,10 +1127,10 @@ local items = {
 		itemid = 39159,
 		type = "equip",
 		slot = "hand",
-		level = 300,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1144,10 +1144,10 @@ local items = {
 		itemid = 39158,
 		type = "equip",
 		slot = "feet",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1161,10 +1161,10 @@ local items = {
 		itemid = 39157,
 		type = "equip",
 		slot = "hand",
-		level = 300,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1178,10 +1178,10 @@ local items = {
 		itemid = 39156,
 		type = "equip",
 		slot = "hand",
-		level = 300,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1195,10 +1195,10 @@ local items = {
 		itemid = 39155,
 		type = "equip",
 		slot = "hand",
-		level = 300,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1212,10 +1212,10 @@ local items = {
 		itemid = 39154,
 		type = "equip",
 		slot = "shield",
-		level = 400,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -1229,10 +1229,10 @@ local items = {
 		itemid = 39153,
 		type = "equip",
 		slot = "head",
-		level = 400,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -1246,10 +1246,10 @@ local items = {
 		itemid = 39152,
 		type = "equip",
 		slot = "shield",
-		level = 400,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1263,10 +1263,10 @@ local items = {
 		itemid = 39151,
 		type = "equip",
 		slot = "head",
-		level = 400,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1280,10 +1280,10 @@ local items = {
 		itemid = 39150,
 		type = "equip",
 		slot = "right-hand",
-		level = 400,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1297,10 +1297,10 @@ local items = {
 		itemid = 39149,
 		type = "equip",
 		slot = "head",
-		level = 400,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1314,10 +1314,10 @@ local items = {
 		itemid = 39148,
 		type = "equip",
 		slot = "head",
-		level = 400,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1331,10 +1331,10 @@ local items = {
 		itemid = 39147,
 		type = "equip",
 		slot = "armor",
-		level = 400,
+		
 		vocation = {
 			{ "Knight", true, true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1360,14 +1360,14 @@ local items = {
 		itemid = 37611,
 		type = "equip",
 		slot = "shield",
-		level = 150,
+		
 	},
 	{
 		-- Morshabaal's mask
 		itemid = 37611,
 		type = "deequip",
 		slot = "shield",
-		level = 150,
+		
 	},
 	{
 		-- green demon helmet
@@ -1422,10 +1422,10 @@ local items = {
 		itemid = 36675,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -1433,10 +1433,10 @@ local items = {
 		itemid = 36675,
 		type = "deequip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -1444,10 +1444,10 @@ local items = {
 		itemid = 36674,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -1455,10 +1455,10 @@ local items = {
 		itemid = 36674,
 		type = "deequip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -1466,10 +1466,10 @@ local items = {
 		itemid = 36673,
 		type = "equip",
 		slot = "shield",
-		level = 300,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -1477,10 +1477,10 @@ local items = {
 		itemid = 36673,
 		type = "deequip",
 		slot = "shield",
-		level = 300,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -1488,10 +1488,10 @@ local items = {
 		itemid = 36672,
 		type = "equip",
 		slot = "shield",
-		level = 300,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1499,10 +1499,10 @@ local items = {
 		itemid = 36672,
 		type = "deequip",
 		slot = "shield",
-		level = 300,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1510,10 +1510,10 @@ local items = {
 		itemid = 36671,
 		type = "equip",
 		slot = "head",
-		level = 250,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -1521,10 +1521,10 @@ local items = {
 		itemid = 36671,
 		type = "deequip",
 		slot = "head",
-		level = 250,
+		
 		vocation = {
 			{ "Druid", true, true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -1532,10 +1532,10 @@ local items = {
 		itemid = 36670,
 		type = "equip",
 		slot = "head",
-		level = 250,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1543,10 +1543,10 @@ local items = {
 		itemid = 36670,
 		type = "deequip",
 		slot = "head",
-		level = 250,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1554,10 +1554,10 @@ local items = {
 		itemid = 36669,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1565,10 +1565,10 @@ local items = {
 		itemid = 36669,
 		type = "deequip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1576,10 +1576,10 @@ local items = {
 		itemid = 36668,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1587,10 +1587,10 @@ local items = {
 		itemid = 36668,
 		type = "deequip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Sorcerer", true, true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1598,10 +1598,10 @@ local items = {
 		itemid = 36667,
 		type = "equip",
 		slot = "legs",
-		level = 250,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1609,10 +1609,10 @@ local items = {
 		itemid = 36667,
 		type = "deequip",
 		slot = "legs",
-		level = 250,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1620,10 +1620,10 @@ local items = {
 		itemid = 36666,
 		type = "equip",
 		slot = "right-hand",
-		level = 250,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1631,10 +1631,10 @@ local items = {
 		itemid = 36666,
 		type = "deequip",
 		slot = "right-hand",
-		level = 250,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1642,10 +1642,10 @@ local items = {
 		itemid = 36665,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1653,10 +1653,10 @@ local items = {
 		itemid = 36665,
 		type = "deequip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1664,10 +1664,10 @@ local items = {
 		itemid = 36664,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1675,10 +1675,10 @@ local items = {
 		itemid = 36664,
 		type = "deequip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1686,10 +1686,10 @@ local items = {
 		itemid = 36663,
 		type = "equip",
 		slot = "armor",
-		level = 250,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1697,10 +1697,10 @@ local items = {
 		itemid = 36663,
 		type = "deequip",
 		slot = "armor",
-		level = 250,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1708,10 +1708,10 @@ local items = {
 		itemid = 36662,
 		type = "equip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1719,10 +1719,10 @@ local items = {
 		itemid = 36662,
 		type = "deequip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1730,10 +1730,10 @@ local items = {
 		itemid = 36661,
 		type = "equip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1741,10 +1741,10 @@ local items = {
 		itemid = 36661,
 		type = "deequip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1752,10 +1752,10 @@ local items = {
 		itemid = 36660,
 		type = "equip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1763,10 +1763,10 @@ local items = {
 		itemid = 36660,
 		type = "deequip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1774,10 +1774,10 @@ local items = {
 		itemid = 36659,
 		type = "equip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1785,10 +1785,10 @@ local items = {
 		itemid = 36659,
 		type = "deequip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1796,10 +1796,10 @@ local items = {
 		itemid = 36658,
 		type = "equip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1807,10 +1807,10 @@ local items = {
 		itemid = 36658,
 		type = "deequip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1818,10 +1818,10 @@ local items = {
 		itemid = 36657,
 		type = "equip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1829,10 +1829,10 @@ local items = {
 		itemid = 36657,
 		type = "deequip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1840,10 +1840,10 @@ local items = {
 		itemid = 36656,
 		type = "equip",
 		slot = "shield",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1851,10 +1851,10 @@ local items = {
 		itemid = 36656,
 		type = "deequip",
 		slot = "shield",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -1877,7 +1877,7 @@ local items = {
 		vocation = {
 			{ "None", true },
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1888,7 +1888,7 @@ local items = {
 		vocation = {
 			{ "None", true },
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1899,7 +1899,7 @@ local items = {
 		vocation = {
 			{ "None", true },
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1910,7 +1910,7 @@ local items = {
 		vocation = {
 			{ "None", true },
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1921,7 +1921,7 @@ local items = {
 		vocation = {
 			{ "None", true },
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1932,7 +1932,7 @@ local items = {
 		vocation = {
 			{ "None", true },
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1940,10 +1940,10 @@ local items = {
 		itemid = 35524,
 		type = "equip",
 		slot = "right-hand",
-		level = 150,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1951,10 +1951,10 @@ local items = {
 		itemid = 35524,
 		type = "deequip",
 		slot = "right-hand",
-		level = 150,
+		
 		vocation = {
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -1962,7 +1962,7 @@ local items = {
 		itemid = 35523,
 		type = "equip",
 		slot = "necklace",
-		level = 180,
+		
 	},
 	{
 		-- exotic amulet
@@ -1975,10 +1975,10 @@ local items = {
 		itemid = 35522,
 		type = "equip",
 		slot = "hand",
-		level = 150,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -1992,10 +1992,10 @@ local items = {
 		itemid = 35521,
 		type = "equip",
 		slot = "hand",
-		level = 150,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -2009,10 +2009,10 @@ local items = {
 		itemid = 35520,
 		type = "equip",
 		slot = "feet",
-		level = 150,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -2026,10 +2026,10 @@ local items = {
 		itemid = 35519,
 		type = "equip",
 		slot = "feet",
-		level = 150,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -2043,10 +2043,10 @@ local items = {
 		itemid = 35518,
 		type = "equip",
 		slot = "hand",
-		level = 150,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -2060,10 +2060,10 @@ local items = {
 		itemid = 35517,
 		type = "equip",
 		slot = "legs",
-		level = 150,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -2077,10 +2077,10 @@ local items = {
 		itemid = 35516,
 		type = "equip",
 		slot = "legs",
-		level = 130,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2094,10 +2094,10 @@ local items = {
 		itemid = 35515,
 		type = "equip",
 		slot = "hand",
-		level = 150,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2111,10 +2111,10 @@ local items = {
 		itemid = 35514,
 		type = "equip",
 		slot = "hand",
-		level = 150,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2128,10 +2128,10 @@ local items = {
 		itemid = 34254,
 		type = "equip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2145,10 +2145,10 @@ local items = {
 		itemid = 34253,
 		type = "equip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2162,31 +2162,31 @@ local items = {
 		itemid = 34158,
 		type = "equip",
 		slot = "necklace",
-		level = 230,
+		
 	},
 	{
 		-- lion amulet
 		itemid = 34158,
 		type = "deequip",
 		slot = "necklace",
-		level = 230,
+		
 	},
 	{
 		-- lion plate
 		itemid = 34157,
 		type = "deequip",
 		slot = "armor",
-		level = 270,
+		
 	},
 	{
 		-- lion plate
 		itemid = 34157,
 		type = "equip",
 		slot = "armor",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2200,10 +2200,10 @@ local items = {
 		itemid = 34156,
 		type = "equip",
 		slot = "head",
-		level = 230,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -2211,10 +2211,10 @@ local items = {
 		itemid = 34155,
 		type = "equip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2228,10 +2228,10 @@ local items = {
 		itemid = 34154,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2245,19 +2245,19 @@ local items = {
 		itemid = 34153,
 		type = "deequip",
 		slot = "shield",
-		level = 220,
+		
 	},
 	{
 		-- lion spellbook
 		itemid = 34153,
 		type = "equip",
 		slot = "shield",
-		level = 220,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -2265,10 +2265,10 @@ local items = {
 		itemid = 34152,
 		type = "equip",
 		slot = "hand",
-		level = 220,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -2282,10 +2282,10 @@ local items = {
 		itemid = 34151,
 		type = "equip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -2299,10 +2299,10 @@ local items = {
 		itemid = 34150,
 		type = "equip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -2322,10 +2322,10 @@ local items = {
 		itemid = 34099,
 		type = "equip",
 		slot = "shield",
-		level = 400,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2339,10 +2339,10 @@ local items = {
 		itemid = 34098,
 		type = "equip",
 		slot = "feet",
-		level = 400,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -2356,10 +2356,10 @@ local items = {
 		itemid = 34097,
 		type = "equip",
 		slot = "feet",
-		level = 400,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2373,10 +2373,10 @@ local items = {
 		itemid = 34096,
 		type = "equip",
 		slot = "armor",
-		level = 400,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -2390,10 +2390,10 @@ local items = {
 		itemid = 34095,
 		type = "equip",
 		slot = "armor",
-		level = 400,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -2401,17 +2401,17 @@ local items = {
 		itemid = 34094,
 		type = "deequip",
 		slot = "armor",
-		level = 400,
+		
 	},
 	{
 		-- soulshell armor
 		itemid = 34094,
 		type = "equip",
 		slot = "armor",
-		level = 400,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -2419,17 +2419,17 @@ local items = {
 		itemid = 34093,
 		type = "deequip",
 		slot = "legs",
-		level = 400,
+		
 	},
 	{
 		-- soulstrider legs
 		itemid = 34093,
 		type = "equip",
 		slot = "legs",
-		level = 400,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -2437,17 +2437,17 @@ local items = {
 		itemid = 34092,
 		type = "deequip",
 		slot = "legs",
-		level = 400,
+		
 	},
 	{
 		-- soulshanks legs
 		itemid = 34092,
 		type = "equip",
 		slot = "legs",
-		level = 400,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -2461,10 +2461,10 @@ local items = {
 		itemid = 34091,
 		type = "equip",
 		slot = "hand",
-		level = 400,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -2478,10 +2478,10 @@ local items = {
 		itemid = 34090,
 		type = "equip",
 		slot = "hand",
-		level = 400,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -2495,10 +2495,10 @@ local items = {
 		itemid = 34089,
 		type = "equip",
 		slot = "hand",
-		level = 400,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -2512,10 +2512,10 @@ local items = {
 		itemid = 34088,
 		type = "equip",
 		slot = "hand",
-		level = 400,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -2529,10 +2529,10 @@ local items = {
 		itemid = 34087,
 		type = "equip",
 		slot = "hand",
-		level = 400,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2546,10 +2546,10 @@ local items = {
 		itemid = 34086,
 		type = "equip",
 		slot = "hand",
-		level = 400,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2563,10 +2563,10 @@ local items = {
 		itemid = 34085,
 		type = "equip",
 		slot = "hand",
-		level = 400,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2580,10 +2580,10 @@ local items = {
 		itemid = 34084,
 		type = "equip",
 		slot = "hand",
-		level = 400,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2597,10 +2597,10 @@ local items = {
 		itemid = 34083,
 		type = "equip",
 		slot = "hand",
-		level = 400,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2614,10 +2614,10 @@ local items = {
 		itemid = 34082,
 		type = "equip",
 		slot = "hand",
-		level = 400,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2661,28 +2661,28 @@ local items = {
 		itemid = 32636,
 		type = "equip",
 		slot = "ring",
-		level = 200,
+		
 	},
 	{
 		-- ring of souls
 		itemid = 32636,
 		type = "deequip",
 		slot = "ring",
-		level = 200,
+		
 	},
 	{
 		-- enchanted ring of souls
 		itemid = 32635,
 		type = "equip",
 		slot = "ring",
-		level = 200,
+		
 	},
 	{
 		-- enchanted ring of souls
 		itemid = 32635,
 		type = "deequip",
 		slot = "ring",
-		level = 200,
+		
 	},
 	{
 		-- spooky hood
@@ -2701,10 +2701,10 @@ local items = {
 		itemid = 32628,
 		type = "equip",
 		slot = "armor",
-		level = 230,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -2712,21 +2712,21 @@ local items = {
 		itemid = 32628,
 		type = "deequip",
 		slot = "armor",
-		level = 230,
+		
 	},
 	{
 		-- enchanted ring of souls
 		itemid = 32621,
 		type = "equip",
 		slot = "ring",
-		level = 200,
+		
 	},
 	{
 		-- enchanted ring of souls
 		itemid = 32621,
 		type = "deequip",
 		slot = "ring",
-		level = 200,
+		
 	},
 	{
 		-- ghost backpack
@@ -2745,12 +2745,12 @@ local items = {
 		itemid = 32619,
 		type = "equip",
 		slot = "feet",
-		level = 140,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -2758,19 +2758,19 @@ local items = {
 		itemid = 32619,
 		type = "deequip",
 		slot = "feet",
-		level = 140,
+		
 	},
 	{
 		-- soulful legs
 		itemid = 32618,
 		type = "equip",
 		slot = "legs",
-		level = 180,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -2778,19 +2778,19 @@ local items = {
 		itemid = 32618,
 		type = "deequip",
 		slot = "legs",
-		level = 180,
+		
 	},
 	{
 		-- fabulous legs
 		itemid = 32617,
 		type = "equip",
 		slot = "legs",
-		level = 225,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -2798,17 +2798,17 @@ local items = {
 		itemid = 32617,
 		type = "deequip",
 		slot = "legs",
-		level = 225,
+		
 	},
 	{
 		-- phantasmal axe
 		itemid = 32616,
 		type = "equip",
 		slot = "hand",
-		level = 180,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2906,14 +2906,14 @@ local items = {
 		itemid = 31631,
 		type = "equip",
 		slot = "necklace",
-		level = 250,
+		
 	},
 	{
 		-- the cobra amulet
 		itemid = 31631,
 		type = "deequip",
 		slot = "necklace",
-		level = 250,
+		
 	},
 	{
 		-- winged backpack
@@ -2932,24 +2932,24 @@ local items = {
 		itemid = 31621,
 		type = "equip",
 		slot = "ring",
-		level = 220,
+		
 	},
 	{
 		-- blister ring
 		itemid = 31621,
 		type = "deequip",
 		slot = "ring",
-		level = 220,
+		
 	},
 	{
 		-- winged boots
 		itemid = 31617,
 		type = "equip",
 		slot = "feet",
-		level = 220,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -2957,31 +2957,31 @@ local items = {
 		itemid = 31617,
 		type = "deequip",
 		slot = "feet",
-		level = 220,
+		
 	},
 	{
 		-- enchanted blister ring
 		itemid = 31616,
 		type = "equip",
 		slot = "ring",
-		level = 220,
+		
 	},
 	{
 		-- enchanted blister ring
 		itemid = 31616,
 		type = "deequip",
 		slot = "ring",
-		level = 220,
+		
 	},
 	{
 		-- tagralt blade
 		itemid = 31614,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -2995,10 +2995,10 @@ local items = {
 		itemid = 31583,
 		type = "equip",
 		slot = "armor",
-		level = 220,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -3006,17 +3006,17 @@ local items = {
 		itemid = 31583,
 		type = "deequip",
 		slot = "armor",
-		level = 220,
+		
 	},
 	{
 		-- galea mortis
 		itemid = 31582,
 		type = "equip",
 		slot = "head",
-		level = 220,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -3024,17 +3024,17 @@ local items = {
 		itemid = 31582,
 		type = "deequip",
 		slot = "head",
-		level = 220,
+		
 	},
 	{
 		-- bow of cataclysm
 		itemid = 31581,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -3048,10 +3048,10 @@ local items = {
 		itemid = 31580,
 		type = "equip",
 		slot = "hand",
-		level = 220,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -3065,10 +3065,10 @@ local items = {
 		itemid = 31579,
 		type = "equip",
 		slot = "armor",
-		level = 220,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -3076,17 +3076,17 @@ local items = {
 		itemid = 31579,
 		type = "deequip",
 		slot = "armor",
-		level = 220,
+		
 	},
 	{
 		-- bear skin
 		itemid = 31578,
 		type = "equip",
 		slot = "armor",
-		level = 230,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -3094,17 +3094,17 @@ local items = {
 		itemid = 31578,
 		type = "deequip",
 		slot = "armor",
-		level = 230,
+		
 	},
 	{
 		-- terra helmet
 		itemid = 31577,
 		type = "equip",
 		slot = "head",
-		level = 230,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -3112,35 +3112,35 @@ local items = {
 		itemid = 31577,
 		type = "deequip",
 		slot = "head",
-		level = 230,
+		
 	},
 	{
 		-- enchanted blister ring
 		itemid = 31557,
 		type = "equip",
 		slot = "ring",
-		level = 220,
+		
 	},
 	{
 		-- enchanted blister ring
 		itemid = 31557,
 		type = "deequip",
 		slot = "ring",
-		level = 220,
+		
 	},
 	{
 		-- rainbow amulet
 		itemid = 31556,
 		type = "equip",
 		slot = "necklace",
-		level = 220,
+		
 	},
 	{
 		-- rainbow amulet
 		itemid = 31556,
 		type = "deequip",
 		slot = "necklace",
-		level = 220,
+		
 	},
 	{
 		-- sphinx tiara
@@ -3231,12 +3231,12 @@ local items = {
 		itemid = 30403,
 		type = "equip",
 		slot = "necklace",
-		level = 220,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -3244,19 +3244,19 @@ local items = {
 		itemid = 30403,
 		type = "deequip",
 		slot = "necklace",
-		level = 220,
+		
 	},
 	{
 		-- enchanted theurgic amulet
 		itemid = 30402,
 		type = "equip",
 		slot = "necklace",
-		level = 220,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -3264,19 +3264,19 @@ local items = {
 		itemid = 30402,
 		type = "deequip",
 		slot = "necklace",
-		level = 220,
+		
 	},
 	{
 		-- amulet of theurgy
 		itemid = 30401,
 		type = "equip",
 		slot = "necklace",
-		level = 220,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -3284,17 +3284,17 @@ local items = {
 		itemid = 30401,
 		type = "deequip",
 		slot = "necklace",
-		level = 220,
+		
 	},
 	{
 		-- cobra rod
 		itemid = 30400,
 		type = "equip",
 		slot = "hand",
-		level = 220,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -3302,17 +3302,17 @@ local items = {
 		itemid = 30400,
 		type = "deequip",
 		slot = "hand",
-		level = 220,
+		
 	},
 	{
 		-- cobra wand
 		itemid = 30399,
 		type = "equip",
 		slot = "hand",
-		level = 270,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -3320,17 +3320,17 @@ local items = {
 		itemid = 30399,
 		type = "deequip",
 		slot = "hand",
-		level = 270,
+		
 	},
 	{
 		-- cobra sword
 		itemid = 30398,
 		type = "equip",
 		slot = "hand",
-		level = 220,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -3338,10 +3338,10 @@ local items = {
 		itemid = 30398,
 		type = "deequip",
 		slot = "hand",
-		level = 220,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -3349,10 +3349,10 @@ local items = {
 		itemid = 30397,
 		type = "equip",
 		slot = "head",
-		level = 270,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -3360,17 +3360,17 @@ local items = {
 		itemid = 30397,
 		type = "deequip",
 		slot = "head",
-		level = 270,
+		
 	},
 	{
 		-- cobra axe
 		itemid = 30396,
 		type = "equip",
 		slot = "hand",
-		level = 220,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -3384,10 +3384,10 @@ local items = {
 		itemid = 30395,
 		type = "equip",
 		slot = "hand",
-		level = 220,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -3401,10 +3401,10 @@ local items = {
 		itemid = 30394,
 		type = "equip",
 		slot = "feet",
-		level = 220,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -3412,17 +3412,17 @@ local items = {
 		itemid = 30394,
 		type = "deequip",
 		slot = "feet",
-		level = 220,
+		
 	},
 	{
 		-- cobra crossbow
 		itemid = 30393,
 		type = "equip",
 		slot = "hand",
-		level = 220,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -3436,14 +3436,14 @@ local items = {
 		itemid = 30323,
 		type = "equip",
 		slot = "necklace",
-		level = 220,
+		
 	},
 	{
 		-- rainbow necklace
 		itemid = 30323,
 		type = "deequip",
 		slot = "necklace",
-		level = 220,
+		
 	},
 	{
 		-- ice hatchet
@@ -3522,10 +3522,10 @@ local items = {
 		itemid = 30345,
 		type = "equip",
 		slot = "necklace",
-		level = 180,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -3533,17 +3533,17 @@ local items = {
 		itemid = 30345,
 		type = "deequip",
 		slot = "necklace",
-		level = 180,
+		
 	},
 	{
 		-- enchanted pendulet
 		itemid = 30344,
 		type = "equip",
 		slot = "necklace",
-		level = 180,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -3551,17 +3551,17 @@ local items = {
 		itemid = 30344,
 		type = "deequip",
 		slot = "necklace",
-		level = 180,
+		
 	},
 	{
 		-- enchanted sleep shawl
 		itemid = 30343,
 		type = "equip",
 		slot = "necklace",
-		level = 180,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -3569,17 +3569,17 @@ local items = {
 		itemid = 30343,
 		type = "deequip",
 		slot = "necklace",
-		level = 180,
+		
 	},
 	{
 		-- enchanted sleep shawl
 		itemid = 30342,
 		type = "equip",
 		slot = "necklace",
-		level = 180,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -3587,7 +3587,7 @@ local items = {
 		itemid = 30342,
 		type = "deequip",
 		slot = "necklace",
-		level = 180,
+		
 	},
 	{
 		-- shield of endless search
@@ -3606,12 +3606,12 @@ local items = {
 		itemid = 29431,
 		type = "equip",
 		slot = "shield",
-		level = 180,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -3619,17 +3619,17 @@ local items = {
 		itemid = 29431,
 		type = "deequip",
 		slot = "shield",
-		level = 180,
+		
 	},
 	{
 		-- ectoplasmic shield
 		itemid = 29430,
 		type = "equip",
 		slot = "shield",
-		level = 180,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -3637,17 +3637,17 @@ local items = {
 		itemid = 29430,
 		type = "deequip",
 		slot = "shield",
-		level = 180,
+		
 	},
 	{
 		-- pendulet
 		itemid = 29429,
 		type = "equip",
 		slot = "necklace",
-		level = 180,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -3655,17 +3655,17 @@ local items = {
 		itemid = 29429,
 		type = "deequip",
 		slot = "necklace",
-		level = 180,
+		
 	},
 	{
 		-- sleep shawl
 		itemid = 29428,
 		type = "equip",
 		slot = "necklace",
-		level = 180,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -3673,17 +3673,17 @@ local items = {
 		itemid = 29428,
 		type = "deequip",
 		slot = "necklace",
-		level = 180,
+		
 	},
 	{
 		-- dark whispers
 		itemid = 29427,
 		type = "equip",
 		slot = "head",
-		level = 180,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -3691,19 +3691,19 @@ local items = {
 		itemid = 29427,
 		type = "deequip",
 		slot = "head",
-		level = 180,
+		
 	},
 	{
 		-- brain in a jar
 		itemid = 29426,
 		type = "equip",
 		slot = "shield",
-		level = 180,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -3711,19 +3711,19 @@ local items = {
 		itemid = 29426,
 		type = "deequip",
 		slot = "shield",
-		level = 180,
+		
 	},
 	{
 		-- energized limb
 		itemid = 29425,
 		type = "equip",
 		slot = "hand",
-		level = 180,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -3731,19 +3731,19 @@ local items = {
 		itemid = 29425,
 		type = "deequip",
 		slot = "hand",
-		level = 180,
+		
 	},
 	{
 		-- pair of dreamwalkers
 		itemid = 29424,
 		type = "equip",
 		slot = "feet",
-		level = 180,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -3751,19 +3751,19 @@ local items = {
 		itemid = 29424,
 		type = "deequip",
 		slot = "feet",
-		level = 180,
+		
 	},
 	{
 		-- dream shroud
 		itemid = 29423,
 		type = "equip",
 		slot = "armor",
-		level = 180,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -3771,17 +3771,17 @@ local items = {
 		itemid = 29423,
 		type = "deequip",
 		slot = "armor",
-		level = 180,
+		
 	},
 	{
 		-- winterblade
 		itemid = 29422,
 		type = "equip",
 		slot = "hand",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -3795,10 +3795,10 @@ local items = {
 		itemid = 29421,
 		type = "equip",
 		slot = "hand",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -3812,12 +3812,12 @@ local items = {
 		itemid = 29420,
 		type = "equip",
 		slot = "shield",
-		level = 180,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -3825,17 +3825,17 @@ local items = {
 		itemid = 29420,
 		type = "deequip",
 		slot = "shield",
-		level = 180,
+		
 	},
 	{
 		-- resizer
 		itemid = 29419,
 		type = "equip",
 		slot = "hand",
-		level = 230,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -3849,12 +3849,12 @@ local items = {
 		itemid = 29418,
 		type = "equip",
 		slot = "armor",
-		level = 180,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -3862,17 +3862,17 @@ local items = {
 		itemid = 29418,
 		type = "deequip",
 		slot = "armor",
-		level = 180,
+		
 	},
 	{
 		-- living vine bow
 		itemid = 29417,
 		type = "equip",
 		slot = "hand",
-		level = 220,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -3880,10 +3880,10 @@ local items = {
 		itemid = 29417,
 		type = "deequip",
 		slot = "hand",
-		level = 220,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -3987,7 +3987,7 @@ local items = {
 		itemid = 28832,
 		type = "equip",
 		slot = "hand",
-		level = 80,
+		
 	},
 	{
 		-- sulphurous demonbone
@@ -4000,7 +4000,7 @@ local items = {
 		itemid = 28831,
 		type = "equip",
 		slot = "hand",
-		level = 80,
+		
 	},
 	{
 		-- unliving demonbone
@@ -4013,7 +4013,7 @@ local items = {
 		itemid = 28830,
 		type = "equip",
 		slot = "hand",
-		level = 80,
+		
 	},
 	{
 		-- energized demonbone
@@ -4026,7 +4026,7 @@ local items = {
 		itemid = 28829,
 		type = "equip",
 		slot = "hand",
-		level = 80,
+		
 	},
 	{
 		-- rotten demonbone
@@ -4039,12 +4039,12 @@ local items = {
 		itemid = 28826,
 		type = "equip",
 		slot = "hand",
-		level = 230,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -4052,19 +4052,19 @@ local items = {
 		itemid = 28826,
 		type = "deequip",
 		slot = "hand",
-		level = 230,
+		
 	},
 	{
 		-- deepling ceremonial dagger
 		itemid = 28825,
 		type = "equip",
 		slot = "hand",
-		level = 180,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -4072,17 +4072,17 @@ local items = {
 		itemid = 28825,
 		type = "deequip",
 		slot = "hand",
-		level = 180,
+		
 	},
 	{
 		-- falcon mace
 		itemid = 28725,
 		type = "equip",
 		slot = "hand",
-		level = 300,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -4096,10 +4096,10 @@ local items = {
 		itemid = 28724,
 		type = "equip",
 		slot = "hand",
-		level = 300,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -4113,10 +4113,10 @@ local items = {
 		itemid = 28723,
 		type = "equip",
 		slot = "hand",
-		level = 300,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -4130,12 +4130,12 @@ local items = {
 		itemid = 28722,
 		type = "equip",
 		slot = "shield",
-		level = 300,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -4143,19 +4143,19 @@ local items = {
 		itemid = 28722,
 		type = "deequip",
 		slot = "shield",
-		level = 300,
+		
 	},
 	{
 		-- falcon shield
 		itemid = 28721,
 		type = "equip",
 		slot = "shield",
-		level = 300,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -4163,19 +4163,19 @@ local items = {
 		itemid = 28721,
 		type = "deequip",
 		slot = "shield",
-		level = 300,
+		
 	},
 	{
 		-- falcon greaves
 		itemid = 28720,
 		type = "equip",
 		slot = "legs",
-		level = 300,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -4183,17 +4183,17 @@ local items = {
 		itemid = 28720,
 		type = "deequip",
 		slot = "legs",
-		level = 300,
+		
 	},
 	{
 		-- falcon plate
 		itemid = 28719,
 		type = "equip",
 		slot = "armor",
-		level = 300,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -4201,17 +4201,17 @@ local items = {
 		itemid = 28719,
 		type = "deequip",
 		slot = "armor",
-		level = 300,
+		
 	},
 	{
 		-- falcon bow
 		itemid = 28718,
 		type = "equip",
 		slot = "hand",
-		level = 300,
+		
 		vocation = {
 			{ "paladin", true },
-			{ "royal paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -4219,17 +4219,17 @@ local items = {
 		itemid = 28718,
 		type = "deequip",
 		slot = "hand",
-		level = 300,
+		
 	},
 	{
 		-- falcon wand
 		itemid = 28717,
 		type = "equip",
 		slot = "hand",
-		level = 300,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -4237,17 +4237,17 @@ local items = {
 		itemid = 28717,
 		type = "deequip",
 		slot = "hand",
-		level = 300,
+		
 	},
 	{
 		-- falcon rod
 		itemid = 28716,
 		type = "equip",
 		slot = "hand",
-		level = 300,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -4255,19 +4255,19 @@ local items = {
 		itemid = 28716,
 		type = "deequip",
 		slot = "hand",
-		level = 300,
+		
 	},
 	{
 		-- falcon coif
 		itemid = 28715,
 		type = "equip",
 		slot = "head",
-		level = 300,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -4275,19 +4275,19 @@ local items = {
 		itemid = 28715,
 		type = "deequip",
 		slot = "head",
-		level = 300,
+		
 	},
 	{
 		-- falcon circlet
 		itemid = 28714,
 		type = "equip",
 		slot = "head",
-		level = 300,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -4295,7 +4295,7 @@ local items = {
 		itemid = 28714,
 		type = "deequip",
 		slot = "head",
-		level = 300,
+		
 	},
 	{
 		-- silver chimes
@@ -4326,10 +4326,10 @@ local items = {
 		itemid = 27651,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -4343,12 +4343,12 @@ local items = {
 		itemid = 27650,
 		type = "equip",
 		slot = "shield",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Royal Paladin" },
-			{ "Elite Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -4356,19 +4356,19 @@ local items = {
 		itemid = 27650,
 		type = "deequip",
 		slot = "shield",
-		level = 200,
+		
 	},
 	{
 		-- gnome legs
 		itemid = 27649,
 		type = "equip",
 		slot = "legs",
-		level = 200,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -4376,17 +4376,17 @@ local items = {
 		itemid = 27649,
 		type = "deequip",
 		slot = "legs",
-		level = 200,
+		
 	},
 	{
 		-- gnome armor
 		itemid = 27648,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -4394,19 +4394,19 @@ local items = {
 		itemid = 27648,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- gnome helmet
 		itemid = 27647,
 		type = "equip",
 		slot = "head",
-		level = 200,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -4414,21 +4414,21 @@ local items = {
 		itemid = 27647,
 		type = "deequip",
 		slot = "head",
-		level = 200,
+		
 	},
 	{
 		-- foxtail amulet
 		itemid = 27565,
 		type = "equip",
 		slot = "necklace",
-		level = 100,
+		
 	},
 	{
 		-- foxtail amulet
 		itemid = 27565,
 		type = "deequip",
 		slot = "necklace",
-		level = 100,
+		
 	},
 	{
 		-- mallet handle
@@ -4471,10 +4471,10 @@ local items = {
 		itemid = 27458,
 		type = "equip",
 		slot = "hand",
-		level = 200,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -4482,17 +4482,17 @@ local items = {
 		itemid = 27458,
 		type = "deequip",
 		slot = "hand",
-		level = 200,
+		
 	},
 	{
 		-- wand of destruction
 		itemid = 27457,
 		type = "equip",
 		slot = "hand",
-		level = 200,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -4500,17 +4500,17 @@ local items = {
 		itemid = 27457,
 		type = "deequip",
 		slot = "hand",
-		level = 200,
+		
 	},
 	{
 		-- crossbow of destruction
 		itemid = 27456,
 		type = "equip",
 		slot = "hand",
-		level = 200,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -4524,10 +4524,10 @@ local items = {
 		itemid = 27455,
 		type = "equip",
 		slot = "hand",
-		level = 200,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -4541,10 +4541,10 @@ local items = {
 		itemid = 27454,
 		type = "equip",
 		slot = "hand",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -4558,10 +4558,10 @@ local items = {
 		itemid = 27453,
 		type = "equip",
 		slot = "hand",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -4575,10 +4575,10 @@ local items = {
 		itemid = 27452,
 		type = "equip",
 		slot = "hand",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -4592,10 +4592,10 @@ local items = {
 		itemid = 27451,
 		type = "equip",
 		slot = "hand",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -4609,10 +4609,10 @@ local items = {
 		itemid = 27450,
 		type = "equip",
 		slot = "hand",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -4626,10 +4626,10 @@ local items = {
 		itemid = 27449,
 		type = "equip",
 		slot = "hand",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -4637,10 +4637,10 @@ local items = {
 		itemid = 27449,
 		type = "deequip",
 		slot = "hand",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -6136,24 +6136,24 @@ local items = {
 		itemid = 25779,
 		type = "equip",
 		slot = "armor",
-		level = 60,
+		
 	},
 	{
 		-- swan feather cloak
 		itemid = 25779,
 		type = "deequip",
 		slot = "armor",
-		level = 60,
+		
 	},
 	{
 		-- wand of darkness
 		itemid = 25760,
 		type = "equip",
 		slot = "hand",
-		level = 41,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -6161,21 +6161,21 @@ local items = {
 		itemid = 25760,
 		type = "deequip",
 		slot = "hand",
-		level = 41,
+		
 	},
 	{
 		-- royal star
 		itemid = 25759,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 	},
 	{
 		-- royal star
 		itemid = 25759,
 		type = "deequip",
 		slot = "hand",
-		level = 120,
+		
 	},
 	{
 		-- spectral bolt
@@ -6194,26 +6194,26 @@ local items = {
 		itemid = 25735,
 		type = "equip",
 		slot = "hand",
-		level = 60,
+		
 	},
 	{
 		-- leaf star
 		itemid = 25735,
 		type = "deequip",
 		slot = "hand",
-		level = 60,
+		
 	},
 	{
 		-- dream blossom staff
 		itemid = 25700,
 		type = "equip",
 		slot = "hand",
-		level = 80,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -6221,19 +6221,19 @@ local items = {
 		itemid = 25700,
 		type = "deequip",
 		slot = "hand",
-		level = 80,
+		
 	},
 	{
 		-- wooden spellbook
 		itemid = 25699,
 		type = "equip",
 		slot = "shield",
-		level = 80,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -6241,21 +6241,21 @@ local items = {
 		itemid = 25699,
 		type = "deequip",
 		slot = "shield",
-		level = 80,
+		
 	},
 	{
 		-- butterfly ring
 		itemid = 25698,
 		type = "equip",
 		slot = "ring",
-		level = 50,
+		
 	},
 	{
 		-- butterfly ring
 		itemid = 25698,
 		type = "deequip",
 		slot = "ring",
-		level = 50,
+		
 	},
 	{
 		-- glowing rubbish amulet
@@ -6382,10 +6382,10 @@ local items = {
 		itemid = 23544,
 		type = "equip",
 		slot = "necklace",
-		level = 150,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -6393,19 +6393,19 @@ local items = {
 		itemid = 23544,
 		type = "deequip",
 		slot = "necklace",
-		level = 150,
+		
 	},
 	{
 		-- collar of green plasma
 		itemid = 23543,
 		type = "equip",
 		slot = "necklace",
-		level = 150,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -6413,17 +6413,17 @@ local items = {
 		itemid = 23543,
 		type = "deequip",
 		slot = "necklace",
-		level = 150,
+		
 	},
 	{
 		-- collar of blue plasma
 		itemid = 23542,
 		type = "equip",
 		slot = "necklace",
-		level = 150,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -6431,17 +6431,17 @@ local items = {
 		itemid = 23542,
 		type = "deequip",
 		slot = "necklace",
-		level = 150,
+		
 	},
 	{
 		-- ring of red plasma
 		itemid = 23534,
 		type = "equip",
 		slot = "ring",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -6449,17 +6449,17 @@ local items = {
 		itemid = 23534,
 		type = "deequip",
 		slot = "ring",
-		level = 100,
+		
 	},
 	{
 		-- ring of red plasma
 		itemid = 23533,
 		type = "equip",
 		slot = "ring",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -6467,19 +6467,19 @@ local items = {
 		itemid = 23533,
 		type = "deequip",
 		slot = "ring",
-		level = 100,
+		
 	},
 	{
 		-- ring of green plasma
 		itemid = 23532,
 		type = "equip",
 		slot = "ring",
-		level = 100,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -6487,19 +6487,19 @@ local items = {
 		itemid = 23532,
 		type = "deequip",
 		slot = "ring",
-		level = 100,
+		
 	},
 	{
 		-- ring of green plasma
 		itemid = 23531,
 		type = "equip",
 		slot = "ring",
-		level = 100,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -6507,17 +6507,17 @@ local items = {
 		itemid = 23531,
 		type = "deequip",
 		slot = "ring",
-		level = 100,
+		
 	},
 	{
 		-- ring of blue plasma
 		itemid = 23530,
 		type = "equip",
 		slot = "ring",
-		level = 100,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -6525,17 +6525,17 @@ local items = {
 		itemid = 23530,
 		type = "deequip",
 		slot = "ring",
-		level = 100,
+		
 	},
 	{
 		-- ring of blue plasma
 		itemid = 23529,
 		type = "equip",
 		slot = "ring",
-		level = 100,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -6543,17 +6543,17 @@ local items = {
 		itemid = 23529,
 		type = "deequip",
 		slot = "ring",
-		level = 100,
+		
 	},
 	{
 		-- collar of red plasma
 		itemid = 23528,
 		type = "equip",
 		slot = "necklace",
-		level = 150,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -6561,19 +6561,19 @@ local items = {
 		itemid = 23528,
 		type = "deequip",
 		slot = "necklace",
-		level = 150,
+		
 	},
 	{
 		-- collar of green plasma
 		itemid = 23527,
 		type = "equip",
 		slot = "necklace",
-		level = 150,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -6581,17 +6581,17 @@ local items = {
 		itemid = 23527,
 		type = "deequip",
 		slot = "necklace",
-		level = 150,
+		
 	},
 	{
 		-- collar of blue plasma
 		itemid = 23526,
 		type = "equip",
 		slot = "necklace",
-		level = 150,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -6599,7 +6599,7 @@ local items = {
 		itemid = 23526,
 		type = "deequip",
 		slot = "necklace",
-		level = 150,
+		
 	},
 	{
 		-- energetic backpack
@@ -6618,40 +6618,40 @@ local items = {
 		itemid = 23477,
 		type = "equip",
 		slot = "feet",
-		level = 150,
+		
 	},
 	{
 		-- void boots
 		itemid = 23477,
 		type = "deequip",
 		slot = "feet",
-		level = 150,
+		
 	},
 	{
 		-- void boots
 		itemid = 23476,
 		type = "equip",
 		slot = "feet",
-		level = 150,
+		
 	},
 	{
 		-- void boots
 		itemid = 23476,
 		type = "deequip",
 		slot = "feet",
-		level = 150,
+		
 	},
 	{
 		-- tiara of power
 		itemid = 23475,
 		type = "equip",
 		slot = "head",
-		level = 100,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -6659,19 +6659,19 @@ local items = {
 		itemid = 23475,
 		type = "deequip",
 		slot = "head",
-		level = 100,
+		
 	},
 	{
 		-- tiara of power
 		itemid = 23474,
 		type = "equip",
 		slot = "head",
-		level = 100,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -6679,17 +6679,17 @@ local items = {
 		itemid = 23474,
 		type = "deequip",
 		slot = "head",
-		level = 100,
+		
 	},
 	{
 		-- rod of carving
 		itemid = 23339,
 		type = "equip",
 		slot = "hand",
-		level = 100,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -6697,17 +6697,17 @@ local items = {
 		itemid = 23339,
 		type = "deequip",
 		slot = "hand",
-		level = 100,
+		
 	},
 	{
 		-- wand of carving
 		itemid = 23335,
 		type = "equip",
 		slot = "hand",
-		level = 100,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -6715,7 +6715,7 @@ local items = {
 		itemid = 23335,
 		type = "deequip",
 		slot = "hand",
-		level = 100,
+		
 	},
 	{
 		-- crossbow of carving
@@ -6818,10 +6818,10 @@ local items = {
 		itemid = 23299,
 		type = "equip",
 		slot = "hand",
-		level = 100,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -6829,17 +6829,17 @@ local items = {
 		itemid = 23299,
 		type = "deequip",
 		slot = "hand",
-		level = 100,
+		
 	},
 	{
 		-- wand of remedy
 		itemid = 23295,
 		type = "equip",
 		slot = "hand",
-		level = 100,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -6847,7 +6847,7 @@ local items = {
 		itemid = 23295,
 		type = "deequip",
 		slot = "hand",
-		level = 100,
+		
 	},
 	{
 		-- crossbow of remedy
@@ -6938,10 +6938,10 @@ local items = {
 		itemid = 23232,
 		type = "equip",
 		slot = "hand",
-		level = 100,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -6949,17 +6949,17 @@ local items = {
 		itemid = 23232,
 		type = "deequip",
 		slot = "hand",
-		level = 100,
+		
 	},
 	{
 		-- wand of mayhem
 		itemid = 23231,
 		type = "equip",
 		slot = "hand",
-		level = 100,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -6967,7 +6967,7 @@ local items = {
 		itemid = 23231,
 		type = "deequip",
 		slot = "hand",
-		level = 100,
+		
 	},
 	{
 		-- crossbow of mayhem
@@ -7094,10 +7094,10 @@ local items = {
 		itemid = 22867,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -7111,10 +7111,10 @@ local items = {
 		itemid = 22866,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -7128,66 +7128,66 @@ local items = {
 		itemid = 22774,
 		type = "equip",
 		slot = "feet",
-		level = 100,
+		
 	},
 	{
 		-- boots of homecoming
 		itemid = 22774,
 		type = "deequip",
 		slot = "feet",
-		level = 100,
+		
 	},
 	{
 		-- boots of homecoming
 		itemid = 22773,
 		type = "equip",
 		slot = "feet",
-		level = 100,
+		
 	},
 	{
 		-- boots of homecoming
 		itemid = 22773,
 		type = "deequip",
 		slot = "feet",
-		level = 100,
+		
 	},
 	{
 		-- ferumbras' amulet
 		itemid = 22768,
 		type = "equip",
 		slot = "necklace",
-		level = 100,
+		
 	},
 	{
 		-- ferumbras' amulet
 		itemid = 22768,
 		type = "deequip",
 		slot = "necklace",
-		level = 100,
+		
 	},
 	{
 		-- ferumbras' amulet
 		itemid = 22767,
 		type = "equip",
 		slot = "necklace",
-		level = 100,
+		
 	},
 	{
 		-- ferumbras' amulet
 		itemid = 22767,
 		type = "deequip",
 		slot = "necklace",
-		level = 100,
+		
 	},
 	{
 		-- ferumbras' staff (enchanted)
 		itemid = 22766,
 		type = "equip",
 		slot = "hand",
-		level = 100,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -7195,17 +7195,17 @@ local items = {
 		itemid = 22766,
 		type = "deequip",
 		slot = "hand",
-		level = 100,
+		
 	},
 	{
 		-- ferumbras' staff (failed)
 		itemid = 22765,
 		type = "equip",
 		slot = "hand",
-		level = 65,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -7213,14 +7213,14 @@ local items = {
 		itemid = 22765,
 		type = "deequip",
 		slot = "hand",
-		level = 65,
+		
 	},
 	{
 		-- Ferumbras' staff (club)
 		itemid = 22764,
 		type = "equip",
 		slot = "hand",
-		level = 100,
+		
 	},
 	{
 		-- Ferumbras' staff (club)
@@ -7233,7 +7233,7 @@ local items = {
 		itemid = 22762,
 		type = "equip",
 		slot = "hand",
-		level = 150,
+		
 	},
 	{
 		-- maimer
@@ -7246,7 +7246,7 @@ local items = {
 		itemid = 22760,
 		type = "equip",
 		slot = "hand",
-		level = 150,
+		
 	},
 	{
 		-- Impaler of the igniter
@@ -7259,7 +7259,7 @@ local items = {
 		itemid = 22759,
 		type = "equip",
 		slot = "hand",
-		level = 150,
+		
 	},
 	{
 		-- plague bite
@@ -7272,28 +7272,28 @@ local items = {
 		itemid = 22758,
 		type = "equip",
 		slot = "shield",
-		level = 200,
+		
 	},
 	{
 		-- death gaze
 		itemid = 22758,
 		type = "deequip",
 		slot = "shield",
-		level = 200,
+		
 	},
 	{
 		-- shroud of despair
 		itemid = 22757,
 		type = "equip",
 		slot = "head",
-		level = 150,
+		
 	},
 	{
 		-- shroud of despair
 		itemid = 22757,
 		type = "deequip",
 		slot = "head",
-		level = 150,
+		
 	},
 	{
 		-- treader of torment
@@ -7312,12 +7312,12 @@ local items = {
 		itemid = 22755,
 		type = "equip",
 		slot = "shield",
-		level = 150,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -7325,7 +7325,7 @@ local items = {
 		itemid = 22755,
 		type = "deequip",
 		slot = "shield",
-		level = 150,
+		
 	},
 	{
 		-- visage of the end days
@@ -7356,7 +7356,7 @@ local items = {
 		itemid = 22727,
 		type = "equip",
 		slot = "hand",
-		level = 70,
+		
 	},
 	{
 		-- rift lance
@@ -7405,12 +7405,12 @@ local items = {
 		itemid = 22537,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -7418,19 +7418,19 @@ local items = {
 		itemid = 22537,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- thundermind raiment
 		itemid = 22536,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -7438,19 +7438,19 @@ local items = {
 		itemid = 22536,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- earthmind raiment
 		itemid = 22535,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -7458,19 +7458,19 @@ local items = {
 		itemid = 22535,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- firemind raiment
 		itemid = 22534,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -7478,17 +7478,17 @@ local items = {
 		itemid = 22534,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- frostsoul tabard
 		itemid = 22533,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -7496,17 +7496,17 @@ local items = {
 		itemid = 22533,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- thundersoul tabard
 		itemid = 22532,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -7514,17 +7514,17 @@ local items = {
 		itemid = 22532,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- earthsoul tabard
 		itemid = 22531,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -7532,17 +7532,17 @@ local items = {
 		itemid = 22531,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- firesoul tabard
 		itemid = 22530,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -7550,17 +7550,17 @@ local items = {
 		itemid = 22530,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- frostheart platemail
 		itemid = 22529,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7568,17 +7568,17 @@ local items = {
 		itemid = 22529,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- frostheart hauberk
 		itemid = 22528,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7586,17 +7586,17 @@ local items = {
 		itemid = 22528,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- frostheart cuirass
 		itemid = 22527,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7604,17 +7604,17 @@ local items = {
 		itemid = 22527,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- thunderheart platemail
 		itemid = 22526,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7622,17 +7622,17 @@ local items = {
 		itemid = 22526,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- thunderheart hauberk
 		itemid = 22525,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7640,17 +7640,17 @@ local items = {
 		itemid = 22525,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- thunderheart cuirass
 		itemid = 22524,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7658,17 +7658,17 @@ local items = {
 		itemid = 22524,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- earthheart platemail
 		itemid = 22523,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7676,17 +7676,17 @@ local items = {
 		itemid = 22523,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- earthheart hauberk
 		itemid = 22522,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7694,17 +7694,17 @@ local items = {
 		itemid = 22522,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- earthheart cuirass
 		itemid = 22521,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7712,17 +7712,17 @@ local items = {
 		itemid = 22521,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- fireheart platemail
 		itemid = 22520,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7730,17 +7730,17 @@ local items = {
 		itemid = 22520,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- fireheart hauberk
 		itemid = 22519,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7748,17 +7748,17 @@ local items = {
 		itemid = 22519,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- fireheart cuirass
 		itemid = 22518,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7766,21 +7766,21 @@ local items = {
 		itemid = 22518,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- onyx pendant
 		itemid = 22195,
 		type = "equip",
 		slot = "necklace",
-		level = 60,
+		
 	},
 	{
 		-- onyx pendant
 		itemid = 22195,
 		type = "deequip",
 		slot = "necklace",
-		level = 60,
+		
 	},
 	{
 		-- shamanic mask
@@ -7811,10 +7811,10 @@ local items = {
 		itemid = 22183,
 		type = "equip",
 		slot = "hand",
-		level = 37,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -7822,14 +7822,14 @@ local items = {
 		itemid = 22183,
 		type = "deequip",
 		slot = "hand",
-		level = 37,
+		
 	},
 	{
 		-- ogre choppa
 		itemid = 22172,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- ogre choppa
@@ -7842,7 +7842,7 @@ local items = {
 		itemid = 22171,
 		type = "equip",
 		slot = "hand",
-		level = 50,
+		
 	},
 	{
 		-- ogre klubba
@@ -7903,10 +7903,10 @@ local items = {
 		itemid = 22132,
 		type = "equip",
 		slot = "necklace",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7914,19 +7914,19 @@ local items = {
 		itemid = 22132,
 		type = "deequip",
 		slot = "necklace",
-		level = 100,
+		
 	},
 	{
 		-- enchanted werewolf helmet - ml
 		itemid = 22130,
 		type = "equip",
 		slot = "head",
-		level = 100,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -7934,17 +7934,17 @@ local items = {
 		itemid = 22130,
 		type = "deequip",
 		slot = "head",
-		level = 100,
+		
 	},
 	{
 		-- enchanted werewolf helmet - distance
 		itemid = 22129,
 		type = "equip",
 		slot = "head",
-		level = 100,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -7952,17 +7952,17 @@ local items = {
 		itemid = 22129,
 		type = "deequip",
 		slot = "head",
-		level = 100,
+		
 	},
 	{
 		-- enchanted werewolf helmet - club
 		itemid = 22128,
 		type = "equip",
 		slot = "head",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7970,17 +7970,17 @@ local items = {
 		itemid = 22128,
 		type = "deequip",
 		slot = "head",
-		level = 100,
+		
 	},
 	{
 		-- enchanted werewolf helmet - axe
 		itemid = 22127,
 		type = "equip",
 		slot = "head",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -7988,7 +7988,7 @@ local items = {
 		itemid = 22127,
 		type = "deequip",
 		slot = "head",
-		level = 100,
+		
 	},
 	{
 		-- wereboar loincloth
@@ -8007,28 +8007,28 @@ local items = {
 		itemid = 22086,
 		type = "equip",
 		slot = "feet",
-		level = 60,
+		
 	},
 	{
 		-- badger boots
 		itemid = 22086,
 		type = "deequip",
 		slot = "feet",
-		level = 60,
+		
 	},
 	{
 		-- fur armor
 		itemid = 22085,
 		type = "equip",
 		slot = "armor",
-		level = 50,
+		
 	},
 	{
 		-- fur armor
 		itemid = 22085,
 		type = "deequip",
 		slot = "armor",
-		level = 50,
+		
 	},
 	{
 		-- wolf backpack
@@ -8047,14 +8047,14 @@ local items = {
 		itemid = 22062,
 		type = "equip",
 		slot = "head",
-		level = 100,
+		
 	},
 	{
 		-- werewolf helmet
 		itemid = 22062,
 		type = "deequip",
 		slot = "head",
-		level = 100,
+		
 	},
 	{
 		-- enchanted werewolf amulet
@@ -8085,12 +8085,12 @@ local items = {
 		itemid = 21981,
 		type = "equip",
 		slot = "feet",
-		level = 80,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -8098,7 +8098,7 @@ local items = {
 		itemid = 21981,
 		type = "deequip",
 		slot = "feet",
-		level = 80,
+		
 	},
 	{
 		-- sweetheart ring
@@ -8117,14 +8117,14 @@ local items = {
 		itemid = 21892,
 		type = "equip",
 		slot = "head",
-		level = 80,
+		
 	},
 	{
 		-- crest of the deep seas
 		itemid = 21892,
 		type = "deequip",
 		slot = "head",
-		level = 80,
+		
 	},
 	{
 		-- brandon's wedding ring
@@ -8206,8 +8206,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -8221,10 +8221,10 @@ local items = {
 		itemid = 21350,
 		type = "equip",
 		slot = "hand",
-		level = 1,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -8232,17 +8232,17 @@ local items = {
 		itemid = 21350,
 		type = "deequip",
 		slot = "hand",
-		level = 1,
+		
 	},
 	{
 		-- the scorcher
 		itemid = 21348,
 		type = "equip",
 		slot = "hand",
-		level = 1,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -8250,7 +8250,7 @@ local items = {
 		itemid = 21348,
 		type = "deequip",
 		slot = "hand",
-		level = 1,
+		
 	},
 	{
 		-- glooth backpack
@@ -8281,7 +8281,7 @@ local items = {
 		itemid = 21219,
 		type = "equip",
 		slot = "hand",
-		level = 70,
+		
 	},
 	{
 		-- one hit wonder
@@ -8294,12 +8294,12 @@ local items = {
 		itemid = 21183,
 		type = "equip",
 		slot = "necklace",
-		level = 75,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -8307,17 +8307,17 @@ local items = {
 		itemid = 21183,
 		type = "deequip",
 		slot = "necklace",
-		level = 75,
+		
 	},
 	{
 		-- glooth axe
 		itemid = 21180,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8331,10 +8331,10 @@ local items = {
 		itemid = 21179,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8348,10 +8348,10 @@ local items = {
 		itemid = 21178,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8365,21 +8365,21 @@ local items = {
 		itemid = 21177,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- cowtana
 		itemid = 21177,
 		type = "deequip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- execowtioner axe
 		itemid = 21176,
 		type = "equip",
 		slot = "hand",
-		level = 55,
+		
 	},
 	{
 		-- execowtioner axe
@@ -8404,7 +8404,7 @@ local items = {
 		itemid = 21174,
 		type = "equip",
 		slot = "hand",
-		level = 45,
+		
 	},
 	{
 		-- mino lance
@@ -8417,7 +8417,7 @@ local items = {
 		itemid = 21173,
 		type = "equip",
 		slot = "hand",
-		level = 60,
+		
 	},
 	{
 		-- moohtant cudgel
@@ -8430,7 +8430,7 @@ local items = {
 		itemid = 21172,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- glooth whip
@@ -8443,7 +8443,7 @@ local items = {
 		itemid = 21171,
 		type = "equip",
 		slot = "hand",
-		level = 55,
+		
 	},
 	{
 		-- metal bat
@@ -8456,26 +8456,26 @@ local items = {
 		itemid = 21170,
 		type = "equip",
 		slot = "necklace",
-		level = 75,
+		
 	},
 	{
 		-- gearwheel chain
 		itemid = 21170,
 		type = "deequip",
 		slot = "necklace",
-		level = 75,
+		
 	},
 	{
 		-- metal spats
 		itemid = 21169,
 		type = "equip",
 		slot = "feet",
-		level = 50,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -8483,21 +8483,21 @@ local items = {
 		itemid = 21169,
 		type = "deequip",
 		slot = "feet",
-		level = 50,
+		
 	},
 	{
 		-- alloy legs
 		itemid = 21168,
 		type = "equip",
 		slot = "legs",
-		level = 60,
+		
 	},
 	{
 		-- alloy legs
 		itemid = 21168,
 		type = "deequip",
 		slot = "legs",
-		level = 60,
+		
 	},
 	{
 		-- heat core
@@ -8519,8 +8519,8 @@ local items = {
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -8534,12 +8534,12 @@ local items = {
 		itemid = 21165,
 		type = "equip",
 		slot = "head",
-		level = 70,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -8547,19 +8547,19 @@ local items = {
 		itemid = 21165,
 		type = "deequip",
 		slot = "head",
-		level = 70,
+		
 	},
 	{
 		-- glooth cape
 		itemid = 21164,
 		type = "equip",
 		slot = "armor",
-		level = 40,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -8567,21 +8567,21 @@ local items = {
 		itemid = 21164,
 		type = "deequip",
 		slot = "armor",
-		level = 40,
+		
 	},
 	{
 		-- glooth spear
 		itemid = 21158,
 		type = "equip",
 		slot = "hand",
-		level = 60,
+		
 	},
 	{
 		-- glooth spear
 		itemid = 21158,
 		type = "deequip",
 		slot = "hand",
-		level = 60,
+		
 	},
 	{
 		-- cake backpack
@@ -8624,14 +8624,14 @@ local items = {
 		itemid = 20182,
 		type = "equip",
 		slot = "ring",
-		level = 200,
+		
 	},
 	{
 		-- ring of ending
 		itemid = 20182,
 		type = "deequip",
 		slot = "ring",
-		level = 200,
+		
 	},
 	{
 		-- eerie song book
@@ -8650,12 +8650,12 @@ local items = {
 		itemid = 20090,
 		type = "equip",
 		slot = "shield",
-		level = 250,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -8663,19 +8663,19 @@ local items = {
 		itemid = 20090,
 		type = "deequip",
 		slot = "shield",
-		level = 250,
+		
 	},
 	{
 		-- umbral spellbook
 		itemid = 20089,
 		type = "equip",
 		slot = "shield",
-		level = 150,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -8683,19 +8683,19 @@ local items = {
 		itemid = 20089,
 		type = "deequip",
 		slot = "shield",
-		level = 150,
+		
 	},
 	{
 		-- crude umbral spellbook
 		itemid = 20088,
 		type = "equip",
 		slot = "shield",
-		level = 75,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -8703,17 +8703,17 @@ local items = {
 		itemid = 20088,
 		type = "deequip",
 		slot = "shield",
-		level = 75,
+		
 	},
 	{
 		-- umbral master crossbow
 		itemid = 20087,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -8727,10 +8727,10 @@ local items = {
 		itemid = 20086,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -8744,10 +8744,10 @@ local items = {
 		itemid = 20085,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -8761,10 +8761,10 @@ local items = {
 		itemid = 20084,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -8778,10 +8778,10 @@ local items = {
 		itemid = 20083,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -8795,10 +8795,10 @@ local items = {
 		itemid = 20082,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -8812,10 +8812,10 @@ local items = {
 		itemid = 20081,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8829,10 +8829,10 @@ local items = {
 		itemid = 20080,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8846,10 +8846,10 @@ local items = {
 		itemid = 20079,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8863,10 +8863,10 @@ local items = {
 		itemid = 20078,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8880,10 +8880,10 @@ local items = {
 		itemid = 20077,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8897,10 +8897,10 @@ local items = {
 		itemid = 20076,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8914,10 +8914,10 @@ local items = {
 		itemid = 20075,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8931,10 +8931,10 @@ local items = {
 		itemid = 20074,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8948,10 +8948,10 @@ local items = {
 		itemid = 20073,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8965,10 +8965,10 @@ local items = {
 		itemid = 20072,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8982,10 +8982,10 @@ local items = {
 		itemid = 20071,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -8999,10 +8999,10 @@ local items = {
 		itemid = 20070,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -9016,10 +9016,10 @@ local items = {
 		itemid = 20069,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -9033,10 +9033,10 @@ local items = {
 		itemid = 20068,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -9050,10 +9050,10 @@ local items = {
 		itemid = 20067,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -9061,10 +9061,10 @@ local items = {
 		itemid = 20067,
 		type = "deequip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -9072,10 +9072,10 @@ local items = {
 		itemid = 20066,
 		type = "equip",
 		slot = "hand",
-		level = 250,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -9089,10 +9089,10 @@ local items = {
 		itemid = 20065,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -9106,10 +9106,10 @@ local items = {
 		itemid = 20064,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -9117,10 +9117,10 @@ local items = {
 		itemid = 20064,
 		type = "deequip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -9140,12 +9140,12 @@ local items = {
 		itemid = 19391,
 		type = "equip",
 		slot = "armor",
-		level = 130,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -9153,7 +9153,7 @@ local items = {
 		itemid = 19391,
 		type = "deequip",
 		slot = "armor",
-		level = 130,
+		
 	},
 	{
 		-- vampire silk slippers
@@ -9199,8 +9199,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -9262,24 +9262,24 @@ local items = {
 		itemid = 19357,
 		type = "equip",
 		slot = "necklace",
-		level = 150,
+		
 	},
 	{
 		-- shrunken head necklace
 		itemid = 19357,
 		type = "deequip",
 		slot = "necklace",
-		level = 150,
+		
 	},
 	{
 		-- triple bolt crossbow
 		itemid = 19356,
 		type = "equip",
 		slot = "hand",
-		level = 70,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -9329,7 +9329,7 @@ local items = {
 		itemid = 17859,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- spiky club
@@ -9378,10 +9378,10 @@ local items = {
 		itemid = 17828,
 		type = "equip",
 		slot = "hand",
-		level = 50,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -9407,7 +9407,7 @@ local items = {
 		itemid = 17813,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- life preserver
@@ -9420,7 +9420,7 @@ local items = {
 		itemid = 17812,
 		type = "equip",
 		slot = "hand",
-		level = 15,
+		
 	},
 	{
 		-- ratana
@@ -9445,7 +9445,7 @@ local items = {
 		itemid = 17111,
 		type = "equip",
 		slot = "hand",
-		level = 1,
+		
 		vocation = {
 			{ "None", true },
 		},
@@ -9455,7 +9455,7 @@ local items = {
 		itemid = 17111,
 		type = "deequip",
 		slot = "hand",
-		level = 1,
+		
 	},
 	{
 		-- mean paladin spear
@@ -9495,21 +9495,21 @@ local items = {
 		itemid = 16264,
 		type = "equip",
 		slot = "ring",
-		level = 120,
+		
 	},
 	{
 		-- prismatic ring
 		itemid = 16264,
 		type = "deequip",
 		slot = "ring",
-		level = 120,
+		
 	},
 	{
 		-- shiny blade
 		itemid = 16175,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 	},
 	{
 		-- shiny blade
@@ -9522,10 +9522,10 @@ local items = {
 		itemid = 16164,
 		type = "equip",
 		slot = "hand",
-		level = 105,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -9539,10 +9539,10 @@ local items = {
 		itemid = 16163,
 		type = "equip",
 		slot = "hand",
-		level = 90,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -9556,7 +9556,7 @@ local items = {
 		itemid = 16162,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 	},
 	{
 		-- mycological mace
@@ -9569,7 +9569,7 @@ local items = {
 		itemid = 16161,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 	},
 	{
 		-- crystalline axe
@@ -9582,7 +9582,7 @@ local items = {
 		itemid = 16160,
 		type = "equip",
 		slot = "hand",
-		level = 62,
+		
 	},
 	{
 		-- crystalline sword
@@ -9631,10 +9631,10 @@ local items = {
 		itemid = 16118,
 		type = "equip",
 		slot = "hand",
-		level = 65,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -9642,17 +9642,17 @@ local items = {
 		itemid = 16118,
 		type = "deequip",
 		slot = "hand",
-		level = 65,
+		
 	},
 	{
 		-- muck rod
 		itemid = 16117,
 		type = "equip",
 		slot = "hand",
-		level = 65,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -9660,17 +9660,17 @@ local items = {
 		itemid = 16117,
 		type = "deequip",
 		slot = "hand",
-		level = 65,
+		
 	},
 	{
 		-- prismatic shield
 		itemid = 16116,
 		type = "equip",
 		slot = "shield",
-		level = 150,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -9678,17 +9678,17 @@ local items = {
 		itemid = 16116,
 		type = "deequip",
 		slot = "shield",
-		level = 150,
+		
 	},
 	{
 		-- wand of everblazing
 		itemid = 16115,
 		type = "equip",
 		slot = "hand",
-		level = 65,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -9696,45 +9696,45 @@ local items = {
 		itemid = 16115,
 		type = "deequip",
 		slot = "hand",
-		level = 65,
+		
 	},
 	{
 		-- prismatic ring
 		itemid = 16114,
 		type = "equip",
 		slot = "ring",
-		level = 120,
+		
 	},
 	{
 		-- prismatic ring
 		itemid = 16114,
 		type = "deequip",
 		slot = "ring",
-		level = 120,
+		
 	},
 	{
 		-- prismatic necklace
 		itemid = 16113,
 		type = "equip",
 		slot = "necklace",
-		level = 150,
+		
 	},
 	{
 		-- prismatic necklace
 		itemid = 16113,
 		type = "deequip",
 		slot = "necklace",
-		level = 150,
+		
 	},
 	{
 		-- prismatic boots
 		itemid = 16112,
 		type = "equip",
 		slot = "feet",
-		level = 150,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -9742,17 +9742,17 @@ local items = {
 		itemid = 16112,
 		type = "deequip",
 		slot = "feet",
-		level = 150,
+		
 	},
 	{
 		-- prismatic legs
 		itemid = 16111,
 		type = "equip",
 		slot = "legs",
-		level = 150,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -9760,19 +9760,19 @@ local items = {
 		itemid = 16111,
 		type = "deequip",
 		slot = "legs",
-		level = 150,
+		
 	},
 	{
 		-- prismatic armor
 		itemid = 16110,
 		type = "equip",
 		slot = "armor",
-		level = 120,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -9780,17 +9780,17 @@ local items = {
 		itemid = 16110,
 		type = "deequip",
 		slot = "armor",
-		level = 120,
+		
 	},
 	{
 		-- prismatic helmet
 		itemid = 16109,
 		type = "equip",
 		slot = "head",
-		level = 150,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -9798,33 +9798,33 @@ local items = {
 		itemid = 16109,
 		type = "deequip",
 		slot = "head",
-		level = 150,
+		
 	},
 	{
 		-- gill necklace
 		itemid = 16108,
 		type = "equip",
 		slot = "necklace",
-		level = 150,
+		
 	},
 	{
 		-- gill necklace
 		itemid = 16108,
 		type = "deequip",
 		slot = "necklace",
-		level = 150,
+		
 	},
 	{
 		-- spellbook of vigilance
 		itemid = 16107,
 		type = "equip",
 		slot = "shield",
-		level = 130,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -9832,19 +9832,19 @@ local items = {
 		itemid = 16107,
 		type = "deequip",
 		slot = "shield",
-		level = 130,
+		
 	},
 	{
 		-- gill legs
 		itemid = 16106,
 		type = "equip",
 		slot = "legs",
-		level = 150,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -9852,19 +9852,19 @@ local items = {
 		itemid = 16106,
 		type = "deequip",
 		slot = "legs",
-		level = 150,
+		
 	},
 	{
 		-- gill coat
 		itemid = 16105,
 		type = "equip",
 		slot = "armor",
-		level = 150,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -9872,19 +9872,19 @@ local items = {
 		itemid = 16105,
 		type = "deequip",
 		slot = "armor",
-		level = 150,
+		
 	},
 	{
 		-- gill gugel
 		itemid = 16104,
 		type = "equip",
 		slot = "head",
-		level = 150,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -9892,7 +9892,7 @@ local items = {
 		itemid = 16104,
 		type = "deequip",
 		slot = "head",
-		level = 150,
+		
 	},
 	{
 		-- crystal backpack
@@ -9923,10 +9923,10 @@ local items = {
 		itemid = 16096,
 		type = "equip",
 		slot = "hand",
-		level = 65,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -9934,7 +9934,7 @@ local items = {
 		itemid = 16096,
 		type = "deequip",
 		slot = "hand",
-		level = 65,
+		
 	},
 	{
 		-- crystalline arrow
@@ -9965,12 +9965,12 @@ local items = {
 		itemid = 14769,
 		type = "equip",
 		slot = "shield",
-		level = 150,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -9978,17 +9978,17 @@ local items = {
 		itemid = 14769,
 		type = "deequip",
 		slot = "shield",
-		level = 150,
+		
 	},
 	{
 		-- thorn spitter
 		itemid = 14768,
 		type = "equip",
 		slot = "hand",
-		level = 150,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -10062,7 +10062,7 @@ local items = {
 		itemid = 14250,
 		type = "equip",
 		slot = "hand",
-		level = 48,
+		
 	},
 	{
 		-- deepling squelcher
@@ -10099,10 +10099,10 @@ local items = {
 		itemid = 14247,
 		type = "equip",
 		slot = "hand",
-		level = 50,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -10116,10 +10116,10 @@ local items = {
 		itemid = 14246,
 		type = "equip",
 		slot = "hand",
-		level = 85,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -10133,7 +10133,7 @@ local items = {
 		itemid = 14089,
 		type = "equip",
 		slot = "hand",
-		level = 70,
+		
 	},
 	{
 		-- hive scythe
@@ -10158,26 +10158,26 @@ local items = {
 		itemid = 14087,
 		type = "equip",
 		slot = "legs",
-		level = 75,
+		
 	},
 	{
 		-- grasshopper legs
 		itemid = 14087,
 		type = "deequip",
 		slot = "legs",
-		level = 75,
+		
 	},
 	{
 		-- calopteryx cape
 		itemid = 14086,
 		type = "equip",
 		slot = "armor",
-		level = 80,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -10185,14 +10185,14 @@ local items = {
 		itemid = 14086,
 		type = "deequip",
 		slot = "armor",
-		level = 80,
+		
 	},
 	{
 		-- guardian axe
 		itemid = 14043,
 		type = "equip",
 		slot = "hand",
-		level = 50,
+		
 	},
 	{
 		-- guardian axe
@@ -10217,7 +10217,7 @@ local items = {
 		itemid = 14040,
 		type = "equip",
 		slot = "hand",
-		level = 40,
+		
 	},
 	{
 		-- warrior's axe
@@ -10230,7 +10230,7 @@ local items = {
 		itemid = 14001,
 		type = "equip",
 		slot = "hand",
-		level = 90,
+		
 	},
 	{
 		-- ornate mace
@@ -10243,10 +10243,10 @@ local items = {
 		itemid = 14000,
 		type = "equip",
 		slot = "shield",
-		level = 130,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -10254,17 +10254,17 @@ local items = {
 		itemid = 14000,
 		type = "deequip",
 		slot = "shield",
-		level = 130,
+		
 	},
 	{
 		-- ornate legs
 		itemid = 13999,
 		type = "equip",
 		slot = "legs",
-		level = 185,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -10272,19 +10272,19 @@ local items = {
 		itemid = 13999,
 		type = "deequip",
 		slot = "legs",
-		level = 185,
+		
 	},
 	{
 		-- depth scutum
 		itemid = 13998,
 		type = "equip",
 		slot = "shield",
-		level = 120,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -10292,17 +10292,17 @@ local items = {
 		itemid = 13998,
 		type = "deequip",
 		slot = "shield",
-		level = 120,
+		
 	},
 	{
 		-- depth calcei
 		itemid = 13997,
 		type = "equip",
 		slot = "feet",
-		level = 150,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -10310,19 +10310,19 @@ local items = {
 		itemid = 13997,
 		type = "deequip",
 		slot = "feet",
-		level = 150,
+		
 	},
 	{
 		-- depth ocrea
 		itemid = 13996,
 		type = "equip",
 		slot = "legs",
-		level = 130,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -10330,31 +10330,31 @@ local items = {
 		itemid = 13996,
 		type = "deequip",
 		slot = "legs",
-		level = 130,
+		
 	},
 	{
 		-- depth galea
 		itemid = 13995,
 		type = "equip",
 		slot = "head",
-		level = 150,
+		
 	},
 	{
 		-- depth galea
 		itemid = 13995,
 		type = "deequip",
 		slot = "head",
-		level = 150,
+		
 	},
 	{
 		-- depth lorica
 		itemid = 13994,
 		type = "equip",
 		slot = "armor",
-		level = 150,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -10362,17 +10362,17 @@ local items = {
 		itemid = 13994,
 		type = "deequip",
 		slot = "armor",
-		level = 150,
+		
 	},
 	{
 		-- ornate chestplate
 		itemid = 13993,
 		type = "equip",
 		slot = "armor",
-		level = 200,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -10380,14 +10380,14 @@ local items = {
 		itemid = 13993,
 		type = "deequip",
 		slot = "armor",
-		level = 200,
+		
 	},
 	{
 		-- deepling axe
 		itemid = 13991,
 		type = "equip",
 		slot = "hand",
-		level = 80,
+		
 	},
 	{
 		-- deepling axe
@@ -10400,21 +10400,21 @@ local items = {
 		itemid = 13990,
 		type = "equip",
 		slot = "necklace",
-		level = 120,
+		
 	},
 	{
 		-- necklace of the deep
 		itemid = 13990,
 		type = "deequip",
 		slot = "necklace",
-		level = 120,
+		
 	},
 	{
 		-- deepling staff
 		itemid = 13987,
 		type = "equip",
 		slot = "hand",
-		level = 38,
+		
 	},
 	{
 		-- deepling staff
@@ -10451,10 +10451,10 @@ local items = {
 		itemid = 12741,
 		type = "equip",
 		slot = "hand",
-		level = 40,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -10462,7 +10462,7 @@ local items = {
 		itemid = 12741,
 		type = "deequip",
 		slot = "hand",
-		level = 40,
+		
 	},
 	{
 		-- broken ring of ending
@@ -10481,10 +10481,10 @@ local items = {
 		itemid = 12733,
 		type = "equip",
 		slot = "hand",
-		level = 40,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -10498,10 +10498,10 @@ local items = {
 		itemid = 12732,
 		type = "equip",
 		slot = "hand",
-		level = 40,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -10509,14 +10509,14 @@ local items = {
 		itemid = 12732,
 		type = "deequip",
 		slot = "hand",
-		level = 40,
+		
 	},
 	{
 		-- shimmer sword
 		itemid = 12731,
 		type = "equip",
 		slot = "hand",
-		level = 40,
+		
 	},
 	{
 		-- shimmer sword
@@ -10529,7 +10529,7 @@ local items = {
 		itemid = 12683,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- heavy trident
@@ -10590,10 +10590,10 @@ local items = {
 		itemid = 12603,
 		type = "equip",
 		slot = "hand",
-		level = 37,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -10601,7 +10601,7 @@ local items = {
 		itemid = 12603,
 		type = "deequip",
 		slot = "hand",
-		level = 37,
+		
 	},
 	{
 		-- mage's cap
@@ -10611,8 +10611,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -10698,21 +10698,21 @@ local items = {
 		itemid = 11693,
 		type = "equip",
 		slot = "hand",
-		level = 82,
+		
 	},
 	{
 		-- blade of corruption
 		itemid = 11693,
 		type = "deequip",
 		slot = "hand",
-		level = 82,
+		
 	},
 	{
 		-- snake god's sceptre
 		itemid = 11692,
 		type = "equip",
 		slot = "hand",
-		level = 82,
+		
 	},
 	{
 		-- snake god's sceptre
@@ -10725,12 +10725,12 @@ local items = {
 		itemid = 11691,
 		type = "equip",
 		slot = "shield",
-		level = 100,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -10738,19 +10738,19 @@ local items = {
 		itemid = 11691,
 		type = "deequip",
 		slot = "shield",
-		level = 100,
+		
 	},
 	{
 		-- draken boots
 		itemid = 4033,
 		type = "equip",
 		slot = "feet",
-		level = 80,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -10758,17 +10758,17 @@ local items = {
 		itemid = 4033,
 		type = "deequip",
 		slot = "feet",
-		level = 80,
+		
 	},
 	{
 		-- elite draken helmet
 		itemid = 11689,
 		type = "equip",
 		slot = "head",
-		level = 100,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -10776,17 +10776,17 @@ local items = {
 		itemid = 11689,
 		type = "deequip",
 		slot = "head",
-		level = 100,
+		
 	},
 	{
 		-- shield of corruption
 		itemid = 11688,
 		type = "equip",
 		slot = "shield",
-		level = 80,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -10794,19 +10794,19 @@ local items = {
 		itemid = 11688,
 		type = "deequip",
 		slot = "shield",
-		level = 80,
+		
 	},
 	{
 		-- royal scale robe
 		itemid = 11687,
 		type = "equip",
 		slot = "armor",
-		level = 100,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -10814,17 +10814,17 @@ local items = {
 		itemid = 11687,
 		type = "deequip",
 		slot = "armor",
-		level = 100,
+		
 	},
 	{
 		-- royal draken mail
 		itemid = 11686,
 		type = "equip",
 		slot = "armor",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -10832,7 +10832,7 @@ local items = {
 		itemid = 11686,
 		type = "deequip",
 		slot = "armor",
-		level = 100,
+		
 	},
 	{
 		-- cobra crown
@@ -10842,8 +10842,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -10857,10 +10857,10 @@ local items = {
 		itemid = 11657,
 		type = "equip",
 		slot = "hand",
-		level = 58,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -10874,12 +10874,12 @@ local items = {
 		itemid = 11651,
 		type = "equip",
 		slot = "armor",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -10887,7 +10887,7 @@ local items = {
 		itemid = 11651,
 		type = "deequip",
 		slot = "armor",
-		level = 100,
+		
 	},
 	{
 		-- fish tail (unequipped)
@@ -10942,12 +10942,12 @@ local items = {
 		itemid = 10451,
 		type = "equip",
 		slot = "head",
-		level = 60,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -10955,19 +10955,19 @@ local items = {
 		itemid = 10451,
 		type = "deequip",
 		slot = "head",
-		level = 60,
+		
 	},
 	{
 		-- Zaoan robe
 		itemid = 10439,
 		type = "equip",
 		slot = "armor",
-		level = 60,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -10975,19 +10975,19 @@ local items = {
 		itemid = 10439,
 		type = "deequip",
 		slot = "armor",
-		level = 60,
+		
 	},
 	{
 		-- spellweaver's robe
 		itemid = 10438,
 		type = "equip",
 		slot = "armor",
-		level = 60,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -10995,7 +10995,7 @@ local items = {
 		itemid = 10438,
 		type = "deequip",
 		slot = "armor",
-		level = 60,
+		
 	},
 	{
 		-- wailing widow's necklace
@@ -11014,7 +11014,7 @@ local items = {
 		itemid = 10406,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- Zaoan halberd
@@ -11027,10 +11027,10 @@ local items = {
 		itemid = 10392,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -11044,10 +11044,10 @@ local items = {
 		itemid = 10391,
 		type = "equip",
 		slot = "hand",
-		level = 55,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -11061,7 +11061,7 @@ local items = {
 		itemid = 10390,
 		type = "equip",
 		slot = "hand",
-		level = 55,
+		
 	},
 	{
 		-- Zaoan sword
@@ -11074,10 +11074,10 @@ local items = {
 		itemid = 10389,
 		type = "equip",
 		slot = "hand",
-		level = 50,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -11091,7 +11091,7 @@ local items = {
 		itemid = 10388,
 		type = "equip",
 		slot = "hand",
-		level = 60,
+		
 	},
 	{
 		-- drakinata
@@ -11131,8 +11131,8 @@ local items = {
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -11146,12 +11146,12 @@ local items = {
 		itemid = 10384,
 		type = "equip",
 		slot = "armor",
-		level = 50,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -11159,7 +11159,7 @@ local items = {
 		itemid = 10384,
 		type = "deequip",
 		slot = "armor",
-		level = 50,
+		
 	},
 	{
 		-- santa backpack
@@ -11226,12 +11226,12 @@ local items = {
 		itemid = 10323,
 		type = "equip",
 		slot = "feet",
-		level = 70,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -11239,7 +11239,7 @@ local items = {
 		itemid = 10323,
 		type = "deequip",
 		slot = "feet",
-		level = 70,
+		
 	},
 	{
 		-- heart backpack
@@ -11258,12 +11258,12 @@ local items = {
 		itemid = 10201,
 		type = "equip",
 		slot = "feet",
-		level = 70,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -11271,19 +11271,19 @@ local items = {
 		itemid = 10201,
 		type = "deequip",
 		slot = "feet",
-		level = 70,
+		
 	},
 	{
 		-- crystal boots
 		itemid = 10200,
 		type = "equip",
 		slot = "feet",
-		level = 70,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -11291,7 +11291,7 @@ local items = {
 		itemid = 10200,
 		type = "deequip",
 		slot = "feet",
-		level = 70,
+		
 	},
 	{
 		-- witch hat
@@ -11301,8 +11301,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -11472,28 +11472,28 @@ local items = {
 		itemid = 9394,
 		type = "equip",
 		slot = "ring",
-		level = 100,
+		
 	},
 	{
 		-- claw of 'The Noxious Spawn'
 		itemid = 9394,
 		type = "deequip",
 		slot = "ring",
-		level = 100,
+		
 	},
 	{
 		-- claw of 'The Noxious Spawn'
 		itemid = 9392,
 		type = "equip",
 		slot = "ring",
-		level = 100,
+		
 	},
 	{
 		-- claw of 'The Noxious Spawn'
 		itemid = 9392,
 		type = "deequip",
 		slot = "ring",
-		level = 100,
+		
 	},
 	{
 		-- poet's fencing quill
@@ -11692,56 +11692,56 @@ local items = {
 		itemid = 9304,
 		type = "equip",
 		slot = "necklace",
-		level = 80,
+		
 	},
 	{
 		-- shockwave amulet
 		itemid = 9304,
 		type = "deequip",
 		slot = "necklace",
-		level = 80,
+		
 	},
 	{
 		-- leviathan's amulet
 		itemid = 9303,
 		type = "equip",
 		slot = "necklace",
-		level = 80,
+		
 	},
 	{
 		-- leviathan's amulet
 		itemid = 9303,
 		type = "deequip",
 		slot = "necklace",
-		level = 80,
+		
 	},
 	{
 		-- sacred tree amulet
 		itemid = 9302,
 		type = "equip",
 		slot = "necklace",
-		level = 80,
+		
 	},
 	{
 		-- sacred tree amulet
 		itemid = 9302,
 		type = "deequip",
 		slot = "necklace",
-		level = 80,
+		
 	},
 	{
 		-- bonfire amulet
 		itemid = 9301,
 		type = "equip",
 		slot = "necklace",
-		level = 80,
+		
 	},
 	{
 		-- bonfire amulet
 		itemid = 9301,
 		type = "deequip",
 		slot = "necklace",
-		level = 80,
+		
 	},
 	{
 		-- laurel wreath
@@ -11808,12 +11808,12 @@ local items = {
 		itemid = 9103,
 		type = "equip",
 		slot = "head",
-		level = 50,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -11821,35 +11821,35 @@ local items = {
 		itemid = 9103,
 		type = "deequip",
 		slot = "head",
-		level = 50,
+		
 	},
 	{
 		-- pair firewalker boots
 		itemid = 9019,
 		type = "equip",
 		slot = "feet",
-		level = 130,
+		
 	},
 	{
 		-- pair firewalker boots
 		itemid = 9019,
 		type = "deequip",
 		slot = "feet",
-		level = 130,
+		
 	},
 	{
 		-- firewalker boots
 		itemid = 9018,
 		type = "equip",
 		slot = "feet",
-		level = 130,
+		
 	},
 	{
 		-- firewalker boots
 		itemid = 9018,
 		type = "deequip",
 		slot = "feet",
-		level = 130,
+		
 	},
 	{
 		-- coconut shoes
@@ -11904,12 +11904,12 @@ local items = {
 		itemid = 8864,
 		type = "equip",
 		slot = "head",
-		level = 80,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -11917,17 +11917,17 @@ local items = {
 		itemid = 8864,
 		type = "deequip",
 		slot = "head",
-		level = 80,
+		
 	},
 	{
 		-- yalahari leg piece
 		itemid = 8863,
 		type = "equip",
 		slot = "legs",
-		level = 80,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -11935,17 +11935,17 @@ local items = {
 		itemid = 8863,
 		type = "deequip",
 		slot = "legs",
-		level = 80,
+		
 	},
 	{
 		-- yalahari armor
 		itemid = 8862,
 		type = "equip",
 		slot = "armor",
-		level = 80,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -11953,7 +11953,7 @@ local items = {
 		itemid = 8862,
 		type = "deequip",
 		slot = "armor",
-		level = 80,
+		
 	},
 	{
 		-- brocade bag
@@ -12008,10 +12008,10 @@ local items = {
 		itemid = 8104,
 		type = "equip",
 		slot = "hand",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -12025,7 +12025,7 @@ local items = {
 		itemid = 8103,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 	},
 	{
 		-- the epiphany
@@ -12038,7 +12038,7 @@ local items = {
 		itemid = 8102,
 		type = "equip",
 		slot = "hand",
-		level = 100,
+		
 	},
 	{
 		-- emerald sword
@@ -12051,10 +12051,10 @@ local items = {
 		itemid = 8101,
 		type = "equip",
 		slot = "hand",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -12068,7 +12068,7 @@ local items = {
 		itemid = 8100,
 		type = "equip",
 		slot = "hand",
-		level = 100,
+		
 	},
 	{
 		-- obsidian truncheon
@@ -12081,7 +12081,7 @@ local items = {
 		itemid = 8099,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 	},
 	{
 		-- dark trinity mace
@@ -12094,10 +12094,10 @@ local items = {
 		itemid = 8098,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -12111,7 +12111,7 @@ local items = {
 		itemid = 8097,
 		type = "equip",
 		slot = "hand",
-		level = 130,
+		
 	},
 	{
 		-- solar axe
@@ -12124,7 +12124,7 @@ local items = {
 		itemid = 8096,
 		type = "equip",
 		slot = "hand",
-		level = 110,
+		
 	},
 	{
 		-- hellforged axe
@@ -12139,7 +12139,7 @@ local items = {
 		slot = "legs",
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -12153,10 +12153,10 @@ local items = {
 		itemid = 8094,
 		type = "equip",
 		slot = "hand",
-		level = 42,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -12164,17 +12164,17 @@ local items = {
 		itemid = 8094,
 		type = "deequip",
 		slot = "hand",
-		level = 42,
+		
 	},
 	{
 		-- wand of draconia
 		itemid = 8093,
 		type = "equip",
 		slot = "hand",
-		level = 22,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -12182,17 +12182,17 @@ local items = {
 		itemid = 8093,
 		type = "deequip",
 		slot = "hand",
-		level = 22,
+		
 	},
 	{
 		-- wand of starstorm
 		itemid = 8092,
 		type = "equip",
 		slot = "hand",
-		level = 37,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -12200,19 +12200,19 @@ local items = {
 		itemid = 8092,
 		type = "deequip",
 		slot = "hand",
-		level = 37,
+		
 	},
 	{
 		-- spellbook of dark mysteries
 		itemid = 8090,
 		type = "equip",
 		slot = "shield",
-		level = 80,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12220,17 +12220,17 @@ local items = {
 		itemid = 8090,
 		type = "deequip",
 		slot = "shield",
-		level = 80,
+		
 	},
 	{
 		-- springsprout rod
 		itemid = 8084,
 		type = "equip",
 		slot = "hand",
-		level = 37,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12238,17 +12238,17 @@ local items = {
 		itemid = 8084,
 		type = "deequip",
 		slot = "hand",
-		level = 37,
+		
 	},
 	{
 		-- northwind rod
 		itemid = 8083,
 		type = "equip",
 		slot = "hand",
-		level = 22,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12256,17 +12256,17 @@ local items = {
 		itemid = 8083,
 		type = "deequip",
 		slot = "hand",
-		level = 22,
+		
 	},
 	{
 		-- underworld rod
 		itemid = 8082,
 		type = "equip",
 		slot = "hand",
-		level = 42,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12274,17 +12274,17 @@ local items = {
 		itemid = 8082,
 		type = "deequip",
 		slot = "hand",
-		level = 42,
+		
 	},
 	{
 		-- terran rainbow shield
 		itemid = 8081,
 		type = "equip",
 		slot = "shield",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -12292,17 +12292,17 @@ local items = {
 		itemid = 8081,
 		type = "deequip",
 		slot = "shield",
-		level = 100,
+		
 	},
 	{
 		-- sparking rainbow shield
 		itemid = 8080,
 		type = "equip",
 		slot = "shield",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -12310,17 +12310,17 @@ local items = {
 		itemid = 8080,
 		type = "deequip",
 		slot = "shield",
-		level = 100,
+		
 	},
 	{
 		-- icy rainbow shield
 		itemid = 8079,
 		type = "equip",
 		slot = "shield",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -12328,17 +12328,17 @@ local items = {
 		itemid = 8079,
 		type = "deequip",
 		slot = "shield",
-		level = 100,
+		
 	},
 	{
 		-- fiery rainbow shield
 		itemid = 8078,
 		type = "equip",
 		slot = "shield",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -12346,17 +12346,17 @@ local items = {
 		itemid = 8078,
 		type = "deequip",
 		slot = "shield",
-		level = 100,
+		
 	},
 	{
 		-- rainbow shield
 		itemid = 8077,
 		type = "equip",
 		slot = "shield",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -12364,19 +12364,19 @@ local items = {
 		itemid = 8077,
 		type = "deequip",
 		slot = "shield",
-		level = 100,
+		
 	},
 	{
 		-- spellscroll of prophecies
 		itemid = 8076,
 		type = "equip",
 		slot = "shield",
-		level = 70,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12384,19 +12384,19 @@ local items = {
 		itemid = 8076,
 		type = "deequip",
 		slot = "shield",
-		level = 70,
+		
 	},
 	{
 		-- spellbook of lost souls
 		itemid = 8075,
 		type = "equip",
 		slot = "shield",
-		level = 60,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12404,19 +12404,19 @@ local items = {
 		itemid = 8075,
 		type = "deequip",
 		slot = "shield",
-		level = 60,
+		
 	},
 	{
 		-- spellbook of mind control
 		itemid = 8074,
 		type = "equip",
 		slot = "shield",
-		level = 50,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12424,19 +12424,19 @@ local items = {
 		itemid = 8074,
 		type = "deequip",
 		slot = "shield",
-		level = 50,
+		
 	},
 	{
 		-- spellbook of warding
 		itemid = 8073,
 		type = "equip",
 		slot = "shield",
-		level = 40,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12444,19 +12444,19 @@ local items = {
 		itemid = 8073,
 		type = "deequip",
 		slot = "shield",
-		level = 40,
+		
 	},
 	{
 		-- spellbook of enlightenment
 		itemid = 8072,
 		type = "equip",
 		slot = "shield",
-		level = 30,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12464,7 +12464,7 @@ local items = {
 		itemid = 8072,
 		type = "deequip",
 		slot = "shield",
-		level = 30,
+		
 	},
 	{
 		-- ethno coat
@@ -12474,8 +12474,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12491,7 +12491,7 @@ local items = {
 		slot = "armor",
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -12505,10 +12505,10 @@ local items = {
 		itemid = 8062,
 		type = "equip",
 		slot = "armor",
-		level = 100,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -12516,17 +12516,17 @@ local items = {
 		itemid = 8062,
 		type = "deequip",
 		slot = "armor",
-		level = 100,
+		
 	},
 	{
 		-- skullcracker armor
 		itemid = 8061,
 		type = "equip",
 		slot = "armor",
-		level = 85,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -12534,17 +12534,17 @@ local items = {
 		itemid = 8061,
 		type = "deequip",
 		slot = "armor",
-		level = 85,
+		
 	},
 	{
 		-- master archer's armor
 		itemid = 8060,
 		type = "equip",
 		slot = "armor",
-		level = 100,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -12552,17 +12552,17 @@ local items = {
 		itemid = 8060,
 		type = "deequip",
 		slot = "armor",
-		level = 100,
+		
 	},
 	{
 		-- frozen plate
 		itemid = 8059,
 		type = "equip",
 		slot = "armor",
-		level = 75,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -12570,17 +12570,17 @@ local items = {
 		itemid = 8059,
 		type = "deequip",
 		slot = "armor",
-		level = 75,
+		
 	},
 	{
 		-- molten plate
 		itemid = 8058,
 		type = "equip",
 		slot = "armor",
-		level = 75,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -12588,17 +12588,17 @@ local items = {
 		itemid = 8058,
 		type = "deequip",
 		slot = "armor",
-		level = 75,
+		
 	},
 	{
 		-- divine plate
 		itemid = 8057,
 		type = "equip",
 		slot = "armor",
-		level = 75,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -12606,17 +12606,17 @@ local items = {
 		itemid = 8057,
 		type = "deequip",
 		slot = "armor",
-		level = 75,
+		
 	},
 	{
 		-- oceanborn leviathan armor
 		itemid = 8056,
 		type = "equip",
 		slot = "armor",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -12624,17 +12624,17 @@ local items = {
 		itemid = 8056,
 		type = "deequip",
 		slot = "armor",
-		level = 100,
+		
 	},
 	{
 		-- windborn colossus armor
 		itemid = 8055,
 		type = "equip",
 		slot = "armor",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -12642,17 +12642,17 @@ local items = {
 		itemid = 8055,
 		type = "deequip",
 		slot = "armor",
-		level = 100,
+		
 	},
 	{
 		-- earthborn titan armor
 		itemid = 8054,
 		type = "equip",
 		slot = "armor",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -12660,17 +12660,17 @@ local items = {
 		itemid = 8054,
 		type = "deequip",
 		slot = "armor",
-		level = 100,
+		
 	},
 	{
 		-- fireborn giant armor
 		itemid = 8053,
 		type = "equip",
 		slot = "armor",
-		level = 100,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -12678,19 +12678,19 @@ local items = {
 		itemid = 8053,
 		type = "deequip",
 		slot = "armor",
-		level = 100,
+		
 	},
 	{
 		-- swamplair armor
 		itemid = 8052,
 		type = "equip",
 		slot = "armor",
-		level = 60,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -12698,19 +12698,19 @@ local items = {
 		itemid = 8052,
 		type = "deequip",
 		slot = "armor",
-		level = 60,
+		
 	},
 	{
 		-- voltage armor
 		itemid = 8051,
 		type = "equip",
 		slot = "armor",
-		level = 60,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -12718,19 +12718,19 @@ local items = {
 		itemid = 8051,
 		type = "deequip",
 		slot = "armor",
-		level = 60,
+		
 	},
 	{
 		-- crystalline armor
 		itemid = 8050,
 		type = "equip",
 		slot = "armor",
-		level = 60,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -12738,19 +12738,19 @@ local items = {
 		itemid = 8050,
 		type = "deequip",
 		slot = "armor",
-		level = 60,
+		
 	},
 	{
 		-- lavos armor
 		itemid = 8049,
 		type = "equip",
 		slot = "armor",
-		level = 60,
+		
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -12758,7 +12758,7 @@ local items = {
 		itemid = 8049,
 		type = "deequip",
 		slot = "armor",
-		level = 60,
+		
 	},
 	{
 		-- girl's dress
@@ -12815,7 +12815,7 @@ local items = {
 		slot = "armor",
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -12832,8 +12832,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12850,8 +12850,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12865,10 +12865,10 @@ local items = {
 		itemid = 8041,
 		type = "equip",
 		slot = "armor",
-		level = 75,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12876,17 +12876,17 @@ local items = {
 		itemid = 8041,
 		type = "deequip",
 		slot = "armor",
-		level = 75,
+		
 	},
 	{
 		-- velvet mantle
 		itemid = 8040,
 		type = "equip",
 		slot = "armor",
-		level = 75,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -12894,17 +12894,17 @@ local items = {
 		itemid = 8040,
 		type = "deequip",
 		slot = "armor",
-		level = 75,
+		
 	},
 	{
 		-- dragon robe
 		itemid = 8039,
 		type = "equip",
 		slot = "armor",
-		level = 75,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -12912,17 +12912,17 @@ local items = {
 		itemid = 8039,
 		type = "deequip",
 		slot = "armor",
-		level = 75,
+		
 	},
 	{
 		-- robe of the ice queen
 		itemid = 8038,
 		type = "equip",
 		slot = "armor",
-		level = 75,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -12930,17 +12930,17 @@ local items = {
 		itemid = 8038,
 		type = "deequip",
 		slot = "armor",
-		level = 75,
+		
 	},
 	{
 		-- dark lord's cape
 		itemid = 8037,
 		type = "equip",
 		slot = "armor",
-		level = 65,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -12948,17 +12948,17 @@ local items = {
 		itemid = 8037,
 		type = "deequip",
 		slot = "armor",
-		level = 65,
+		
 	},
 	{
 		-- elethriel's elemental bow
 		itemid = 8030,
 		type = "equip",
 		slot = "hand",
-		level = 70,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -12972,10 +12972,10 @@ local items = {
 		itemid = 8029,
 		type = "equip",
 		slot = "hand",
-		level = 40,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -12989,10 +12989,10 @@ local items = {
 		itemid = 8028,
 		type = "equip",
 		slot = "hand",
-		level = 60,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -13006,10 +13006,10 @@ local items = {
 		itemid = 8027,
 		type = "equip",
 		slot = "hand",
-		level = 50,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -13023,10 +13023,10 @@ local items = {
 		itemid = 8026,
 		type = "equip",
 		slot = "hand",
-		level = 80,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -13040,10 +13040,10 @@ local items = {
 		itemid = 8025,
 		type = "equip",
 		slot = "hand",
-		level = 80,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -13057,10 +13057,10 @@ local items = {
 		itemid = 8024,
 		type = "equip",
 		slot = "hand",
-		level = 100,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -13068,10 +13068,10 @@ local items = {
 		itemid = 8024,
 		type = "deequip",
 		slot = "hand",
-		level = 100,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -13079,10 +13079,10 @@ local items = {
 		itemid = 8023,
 		type = "equip",
 		slot = "hand",
-		level = 130,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -13096,10 +13096,10 @@ local items = {
 		itemid = 8022,
 		type = "equip",
 		slot = "hand",
-		level = 60,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -13113,10 +13113,10 @@ local items = {
 		itemid = 8021,
 		type = "equip",
 		slot = "hand",
-		level = 45,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -13130,14 +13130,14 @@ local items = {
 		itemid = 7993,
 		type = "equip",
 		slot = "armor",
-		level = 50,
+		
 	},
 	{
 		-- witchhunter's coat
 		itemid = 7993,
 		type = "deequip",
 		slot = "armor",
-		level = 50,
+		
 	},
 	{
 		-- mage hat
@@ -13147,8 +13147,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13165,8 +13165,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13303,8 +13303,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13321,8 +13321,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13339,8 +13339,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13357,8 +13357,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13372,12 +13372,12 @@ local items = {
 		itemid = 826,
 		type = "equip",
 		slot = "armor",
-		level = 50,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13385,19 +13385,19 @@ local items = {
 		itemid = 826,
 		type = "deequip",
 		slot = "armor",
-		level = 50,
+		
 	},
 	{
 		-- lightning robe
 		itemid = 825,
 		type = "equip",
 		slot = "armor",
-		level = 50,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13405,19 +13405,19 @@ local items = {
 		itemid = 825,
 		type = "deequip",
 		slot = "armor",
-		level = 50,
+		
 	},
 	{
 		-- glacier robe
 		itemid = 824,
 		type = "equip",
 		slot = "armor",
-		level = 50,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13425,19 +13425,19 @@ local items = {
 		itemid = 824,
 		type = "deequip",
 		slot = "armor",
-		level = 50,
+		
 	},
 	{
 		-- glacier kilt
 		itemid = 823,
 		type = "equip",
 		slot = "legs",
-		level = 40,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13445,19 +13445,19 @@ local items = {
 		itemid = 823,
 		type = "deequip",
 		slot = "legs",
-		level = 40,
+		
 	},
 	{
 		-- lightning legs
 		itemid = 822,
 		type = "equip",
 		slot = "legs",
-		level = 40,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13465,19 +13465,19 @@ local items = {
 		itemid = 822,
 		type = "deequip",
 		slot = "legs",
-		level = 40,
+		
 	},
 	{
 		-- magma legs
 		itemid = 821,
 		type = "equip",
 		slot = "legs",
-		level = 40,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13485,19 +13485,19 @@ local items = {
 		itemid = 821,
 		type = "deequip",
 		slot = "legs",
-		level = 40,
+		
 	},
 	{
 		-- lightning boots
 		itemid = 820,
 		type = "equip",
 		slot = "feet",
-		level = 35,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13505,19 +13505,19 @@ local items = {
 		itemid = 820,
 		type = "deequip",
 		slot = "feet",
-		level = 35,
+		
 	},
 	{
 		-- glacier shoes
 		itemid = 819,
 		type = "equip",
 		slot = "feet",
-		level = 35,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13525,19 +13525,19 @@ local items = {
 		itemid = 819,
 		type = "deequip",
 		slot = "feet",
-		level = 35,
+		
 	},
 	{
 		-- magma boots
 		itemid = 818,
 		type = "equip",
 		slot = "feet",
-		level = 35,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13545,75 +13545,75 @@ local items = {
 		itemid = 818,
 		type = "deequip",
 		slot = "feet",
-		level = 35,
+		
 	},
 	{
 		-- magma amulet
 		itemid = 817,
 		type = "equip",
 		slot = "necklace",
-		level = 60,
+		
 	},
 	{
 		-- magma amulet
 		itemid = 817,
 		type = "deequip",
 		slot = "necklace",
-		level = 60,
+		
 	},
 	{
 		-- lightning pendant
 		itemid = 816,
 		type = "equip",
 		slot = "necklace",
-		level = 60,
+		
 	},
 	{
 		-- lightning pendant
 		itemid = 816,
 		type = "deequip",
 		slot = "necklace",
-		level = 60,
+		
 	},
 	{
 		-- glacier amulet
 		itemid = 815,
 		type = "equip",
 		slot = "necklace",
-		level = 60,
+		
 	},
 	{
 		-- glacier amulet
 		itemid = 815,
 		type = "deequip",
 		slot = "necklace",
-		level = 60,
+		
 	},
 	{
 		-- terra amulet
 		itemid = 814,
 		type = "equip",
 		slot = "necklace",
-		level = 60,
+		
 	},
 	{
 		-- terra amulet
 		itemid = 814,
 		type = "deequip",
 		slot = "necklace",
-		level = 60,
+		
 	},
 	{
 		-- terra boots
 		itemid = 813,
 		type = "equip",
 		slot = "feet",
-		level = 35,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13621,19 +13621,19 @@ local items = {
 		itemid = 813,
 		type = "deequip",
 		slot = "feet",
-		level = 35,
+		
 	},
 	{
 		-- terra legs
 		itemid = 812,
 		type = "equip",
 		slot = "legs",
-		level = 40,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13641,19 +13641,19 @@ local items = {
 		itemid = 812,
 		type = "deequip",
 		slot = "legs",
-		level = 40,
+		
 	},
 	{
 		-- terra mantle
 		itemid = 811,
 		type = "equip",
 		slot = "armor",
-		level = 50,
+		
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -13661,7 +13661,7 @@ local items = {
 		itemid = 811,
 		type = "deequip",
 		slot = "armor",
-		level = 50,
+		
 	},
 	{
 		-- energy war hammer
@@ -13716,7 +13716,7 @@ local items = {
 		itemid = 806,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- energy clerical mace
@@ -13789,10 +13789,10 @@ local items = {
 		itemid = 798,
 		type = "equip",
 		slot = "hand",
-		level = 45,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -13890,7 +13890,7 @@ local items = {
 		itemid = 790,
 		type = "equip",
 		slot = "hand",
-		level = 35,
+		
 	},
 	{
 		-- earth crystal mace
@@ -14587,7 +14587,7 @@ local items = {
 		itemid = 7456,
 		type = "equip",
 		slot = "hand",
-		level = 35,
+		
 	},
 	{
 		-- noble axe
@@ -14600,7 +14600,7 @@ local items = {
 		itemid = 7455,
 		type = "equip",
 		slot = "hand",
-		level = 80,
+		
 	},
 	{
 		-- mythril axe
@@ -14613,10 +14613,10 @@ local items = {
 		itemid = 7454,
 		type = "equip",
 		slot = "hand",
-		level = 30,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -14630,10 +14630,10 @@ local items = {
 		itemid = 7453,
 		type = "equip",
 		slot = "hand",
-		level = 85,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -14647,10 +14647,10 @@ local items = {
 		itemid = 7452,
 		type = "equip",
 		slot = "hand",
-		level = 30,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -14664,7 +14664,7 @@ local items = {
 		itemid = 7451,
 		type = "equip",
 		slot = "hand",
-		level = 35,
+		
 	},
 	{
 		-- shadow sceptre
@@ -14677,10 +14677,10 @@ local items = {
 		itemid = 7450,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -14694,10 +14694,10 @@ local items = {
 		itemid = 7449,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -14723,7 +14723,7 @@ local items = {
 		itemid = 7437,
 		type = "equip",
 		slot = "hand",
-		level = 30,
+		
 	},
 	{
 		-- sapphire hammer
@@ -14736,10 +14736,10 @@ local items = {
 		itemid = 7436,
 		type = "equip",
 		slot = "hand",
-		level = 45,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -14753,7 +14753,7 @@ local items = {
 		itemid = 7435,
 		type = "equip",
 		slot = "hand",
-		level = 85,
+		
 	},
 	{
 		-- impaler
@@ -14766,7 +14766,7 @@ local items = {
 		itemid = 7434,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 	},
 	{
 		-- royal axe
@@ -14779,7 +14779,7 @@ local items = {
 		itemid = 7433,
 		type = "equip",
 		slot = "hand",
-		level = 65,
+		
 	},
 	{
 		-- ravenwing
@@ -14792,7 +14792,7 @@ local items = {
 		itemid = 7432,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- furry club
@@ -14805,7 +14805,7 @@ local items = {
 		itemid = 7431,
 		type = "equip",
 		slot = "hand",
-		level = 80,
+		
 	},
 	{
 		-- demonbone
@@ -14818,7 +14818,7 @@ local items = {
 		itemid = 7430,
 		type = "equip",
 		slot = "hand",
-		level = 30,
+		
 	},
 	{
 		-- dragonbone staff
@@ -14831,7 +14831,7 @@ local items = {
 		itemid = 7429,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 	},
 	{
 		-- blessed sceptre
@@ -14844,10 +14844,10 @@ local items = {
 		itemid = 7428,
 		type = "equip",
 		slot = "hand",
-		level = 55,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -14861,7 +14861,7 @@ local items = {
 		itemid = 7427,
 		type = "equip",
 		slot = "hand",
-		level = 45,
+		
 	},
 	{
 		-- chaos mace
@@ -14874,7 +14874,7 @@ local items = {
 		itemid = 7426,
 		type = "equip",
 		slot = "hand",
-		level = 40,
+		
 	},
 	{
 		-- amber staff
@@ -14887,7 +14887,7 @@ local items = {
 		itemid = 7425,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- taurus mace
@@ -14900,7 +14900,7 @@ local items = {
 		itemid = 7424,
 		type = "equip",
 		slot = "hand",
-		level = 30,
+		
 	},
 	{
 		-- lunar staff
@@ -14913,10 +14913,10 @@ local items = {
 		itemid = 7423,
 		type = "equip",
 		slot = "hand",
-		level = 85,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -14930,7 +14930,7 @@ local items = {
 		itemid = 7422,
 		type = "equip",
 		slot = "hand",
-		level = 70,
+		
 	},
 	{
 		-- jade hammer
@@ -14943,7 +14943,7 @@ local items = {
 		itemid = 7421,
 		type = "equip",
 		slot = "hand",
-		level = 65,
+		
 	},
 	{
 		-- onyx flail
@@ -14956,7 +14956,7 @@ local items = {
 		itemid = 7420,
 		type = "equip",
 		slot = "hand",
-		level = 70,
+		
 	},
 	{
 		-- reaper's axe
@@ -14969,7 +14969,7 @@ local items = {
 		itemid = 7419,
 		type = "equip",
 		slot = "hand",
-		level = 40,
+		
 	},
 	{
 		-- dreaded cleaver
@@ -14982,7 +14982,7 @@ local items = {
 		itemid = 7418,
 		type = "equip",
 		slot = "hand",
-		level = 70,
+		
 	},
 	{
 		-- nightmare blade
@@ -14995,7 +14995,7 @@ local items = {
 		itemid = 7417,
 		type = "equip",
 		slot = "hand",
-		level = 65,
+		
 	},
 	{
 		-- runed sword
@@ -15008,21 +15008,21 @@ local items = {
 		itemid = 7416,
 		type = "equip",
 		slot = "hand",
-		level = 55,
+		
 	},
 	{
 		-- bloody edge
 		itemid = 7416,
 		type = "deequip",
 		slot = "hand",
-		level = 55,
+		
 	},
 	{
 		-- cranial basher
 		itemid = 7415,
 		type = "equip",
 		slot = "hand",
-		level = 60,
+		
 	},
 	{
 		-- cranial basher
@@ -15035,10 +15035,10 @@ local items = {
 		itemid = 7414,
 		type = "equip",
 		slot = "hand",
-		level = 60,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -15052,10 +15052,10 @@ local items = {
 		itemid = 7413,
 		type = "equip",
 		slot = "hand",
-		level = 40,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -15069,7 +15069,7 @@ local items = {
 		itemid = 7412,
 		type = "equip",
 		slot = "hand",
-		level = 45,
+		
 	},
 	{
 		-- butcher's axe
@@ -15082,7 +15082,7 @@ local items = {
 		itemid = 7411,
 		type = "equip",
 		slot = "hand",
-		level = 50,
+		
 	},
 	{
 		-- ornamented axe
@@ -15095,7 +15095,7 @@ local items = {
 		itemid = 7410,
 		type = "equip",
 		slot = "hand",
-		level = 55,
+		
 	},
 	{
 		-- queen's sceptre
@@ -15108,7 +15108,7 @@ local items = {
 		itemid = 7409,
 		type = "equip",
 		slot = "hand",
-		level = 50,
+		
 	},
 	{
 		-- northern star
@@ -15121,7 +15121,7 @@ local items = {
 		itemid = 7408,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- wyvern fang
@@ -15134,10 +15134,10 @@ local items = {
 		itemid = 7407,
 		type = "equip",
 		slot = "hand",
-		level = 30,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -15151,10 +15151,10 @@ local items = {
 		itemid = 7406,
 		type = "equip",
 		slot = "hand",
-		level = 35,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -15162,17 +15162,17 @@ local items = {
 		itemid = 7406,
 		type = "deequip",
 		slot = "hand",
-		level = 35,
+		
 	},
 	{
 		-- havoc blade
 		itemid = 7405,
 		type = "equip",
 		slot = "hand",
-		level = 70,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -15186,31 +15186,31 @@ local items = {
 		itemid = 7404,
 		type = "equip",
 		slot = "hand",
-		level = 40,
+		
 	},
 	{
 		-- assassin dagger
 		itemid = 7404,
 		type = "deequip",
 		slot = "hand",
-		level = 40,
+		
 	},
 	{
 		-- berserker
 		itemid = 7403,
 		type = "equip",
 		slot = "hand",
-		level = 65,
+		
 	},
 	{
 		-- berserker
 		itemid = 7403,
 		type = "deequip",
 		slot = "hand",
-		level = 65,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -15218,10 +15218,10 @@ local items = {
 		itemid = 7402,
 		type = "equip",
 		slot = "hand",
-		level = 45,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -15235,7 +15235,7 @@ local items = {
 		itemid = 7392,
 		type = "equip",
 		slot = "hand",
-		level = 35,
+		
 	},
 	{
 		-- orcish maul
@@ -15248,10 +15248,10 @@ local items = {
 		itemid = 7391,
 		type = "equip",
 		slot = "hand",
-		level = 50,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -15265,7 +15265,7 @@ local items = {
 		itemid = 7390,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 	},
 	{
 		-- the justice seeker
@@ -15278,7 +15278,7 @@ local items = {
 		itemid = 7389,
 		type = "equip",
 		slot = "hand",
-		level = 60,
+		
 	},
 	{
 		-- heroic axe
@@ -15291,7 +15291,7 @@ local items = {
 		itemid = 7388,
 		type = "equip",
 		slot = "hand",
-		level = 55,
+		
 	},
 	{
 		-- vile axe
@@ -15304,7 +15304,7 @@ local items = {
 		itemid = 7387,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- diamond sceptre
@@ -15317,10 +15317,10 @@ local items = {
 		itemid = 7386,
 		type = "equip",
 		slot = "hand",
-		level = 40,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -15334,21 +15334,21 @@ local items = {
 		itemid = 7385,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- crimson sword
 		itemid = 7385,
 		type = "deequip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- mystic blade
 		itemid = 7384,
 		type = "equip",
 		slot = "hand",
-		level = 60,
+		
 	},
 	{
 		-- mystic blade
@@ -15361,7 +15361,7 @@ local items = {
 		itemid = 7383,
 		type = "equip",
 		slot = "hand",
-		level = 50,
+		
 	},
 	{
 		-- relic sword
@@ -15374,10 +15374,10 @@ local items = {
 		itemid = 7382,
 		type = "equip",
 		slot = "hand",
-		level = 60,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -15391,7 +15391,7 @@ local items = {
 		itemid = 7381,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- mammoth whopper
@@ -15404,10 +15404,10 @@ local items = {
 		itemid = 7380,
 		type = "equip",
 		slot = "hand",
-		level = 35,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -15421,7 +15421,7 @@ local items = {
 		itemid = 7379,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- brutetamer's staff
@@ -15434,42 +15434,42 @@ local items = {
 		itemid = 7378,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- royal spear
 		itemid = 7378,
 		type = "deequip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- assassin star
 		itemid = 7368,
 		type = "equip",
 		slot = "hand",
-		level = 80,
+		
 	},
 	{
 		-- assassin star
 		itemid = 7368,
 		type = "deequip",
 		slot = "hand",
-		level = 80,
+		
 	},
 	{
 		-- enchanted spear
 		itemid = 7367,
 		type = "equip",
 		slot = "hand",
-		level = 42,
+		
 	},
 	{
 		-- enchanted spear
 		itemid = 7367,
 		type = "deequip",
 		slot = "hand",
-		level = 42,
+		
 	},
 	{
 		-- onyx arrow
@@ -15558,10 +15558,10 @@ local items = {
 		itemid = 6553,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -15599,10 +15599,10 @@ local items = {
 		itemid = 6527,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -15820,10 +15820,10 @@ local items = {
 		itemid = 5803,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -16041,14 +16041,14 @@ local items = {
 		itemid = 3347,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- hunting spear
 		itemid = 3347,
 		type = "deequip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- ripper lance
@@ -16079,7 +16079,7 @@ local items = {
 		itemid = 3344,
 		type = "equip",
 		slot = "hand",
-		level = 30,
+		
 	},
 	{
 		-- beastslayer axe
@@ -16092,7 +16092,7 @@ local items = {
 		itemid = 3343,
 		type = "equip",
 		slot = "hand",
-		level = 40,
+		
 	},
 	{
 		-- lich staff
@@ -16155,7 +16155,7 @@ local items = {
 		slot = "head",
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -16207,7 +16207,7 @@ local items = {
 		slot = "armor",
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -17013,10 +17013,10 @@ local items = {
 		itemid = 3394,
 		type = "equip",
 		slot = "armor",
-		level = 60,
+		
 		vocation = {
 			{ "Paladin", true },
-			{ "Royal Paladin" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -17024,7 +17024,7 @@ local items = {
 		itemid = 3394,
 		type = "deequip",
 		slot = "armor",
-		level = 60,
+		
 	},
 	{
 		-- amazon helmet
@@ -17118,8 +17118,8 @@ local items = {
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -17172,8 +17172,8 @@ local items = {
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -17190,8 +17190,8 @@ local items = {
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -17316,8 +17316,8 @@ local items = {
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -17334,8 +17334,8 @@ local items = {
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -17388,8 +17388,8 @@ local items = {
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -17418,8 +17418,8 @@ local items = {
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -17472,8 +17472,8 @@ local items = {
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -17619,10 +17619,10 @@ local items = {
 		itemid = 3342,
 		type = "equip",
 		slot = "hand",
-		level = 65,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -17636,7 +17636,7 @@ local items = {
 		itemid = 3341,
 		type = "equip",
 		slot = "hand",
-		level = 75,
+		
 	},
 	{
 		-- arcane staff
@@ -17649,7 +17649,7 @@ local items = {
 		itemid = 3340,
 		type = "equip",
 		slot = "hand",
-		level = 70,
+		
 	},
 	{
 		-- heavy mace
@@ -17662,7 +17662,7 @@ local items = {
 		itemid = 3339,
 		type = "equip",
 		slot = "hand",
-		level = 35,
+		
 	},
 	{
 		-- djinn blade
@@ -17711,10 +17711,10 @@ local items = {
 		itemid = 3335,
 		type = "equip",
 		slot = "hand",
-		level = 50,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -17728,7 +17728,7 @@ local items = {
 		itemid = 3334,
 		type = "equip",
 		slot = "hand",
-		level = 45,
+		
 	},
 	{
 		-- pharaoh sword
@@ -17741,7 +17741,7 @@ local items = {
 		itemid = 3333,
 		type = "equip",
 		slot = "hand",
-		level = 35,
+		
 	},
 	{
 		-- crystal mace
@@ -17754,10 +17754,10 @@ local items = {
 		itemid = 3332,
 		type = "equip",
 		slot = "hand",
-		level = 65,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -17771,7 +17771,7 @@ local items = {
 		itemid = 3331,
 		type = "equip",
 		slot = "hand",
-		level = 70,
+		
 	},
 	{
 		-- ravager's axe
@@ -17808,10 +17808,10 @@ local items = {
 		itemid = 3328,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -17837,7 +17837,7 @@ local items = {
 		itemid = 3326,
 		type = "equip",
 		slot = "hand",
-		level = 30,
+		
 	},
 	{
 		-- epee
@@ -17862,7 +17862,7 @@ local items = {
 		itemid = 3324,
 		type = "equip",
 		slot = "hand",
-		level = 30,
+		
 	},
 	{
 		-- skull staff
@@ -17875,7 +17875,7 @@ local items = {
 		itemid = 3323,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- dwarven axe
@@ -17888,7 +17888,7 @@ local items = {
 		itemid = 3322,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- dragon hammer
@@ -17913,7 +17913,7 @@ local items = {
 		itemid = 3320,
 		type = "equip",
 		slot = "hand",
-		level = 35,
+		
 	},
 	{
 		-- fire axe
@@ -17926,7 +17926,7 @@ local items = {
 		itemid = 3319,
 		type = "equip",
 		slot = "hand",
-		level = 90,
+		
 	},
 	{
 		-- stonecutter axe
@@ -17939,7 +17939,7 @@ local items = {
 		itemid = 3318,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- knight axe
@@ -17952,7 +17952,7 @@ local items = {
 		itemid = 3317,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- barbarian axe
@@ -17977,7 +17977,7 @@ local items = {
 		itemid = 3315,
 		type = "equip",
 		slot = "hand",
-		level = 55,
+		
 	},
 	{
 		-- guardian halberd
@@ -17990,7 +17990,7 @@ local items = {
 		itemid = 3314,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- naginata
@@ -18003,7 +18003,7 @@ local items = {
 		itemid = 3313,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- obsidian lance
@@ -18016,7 +18016,7 @@ local items = {
 		itemid = 3312,
 		type = "equip",
 		slot = "hand",
-		level = 45,
+		
 	},
 	{
 		-- silver mace
@@ -18029,7 +18029,7 @@ local items = {
 		itemid = 3311,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 	},
 	{
 		-- clerical mace
@@ -18054,7 +18054,7 @@ local items = {
 		itemid = 3309,
 		type = "equip",
 		slot = "hand",
-		level = 85,
+		
 	},
 	{
 		-- thunder hammer
@@ -18127,10 +18127,10 @@ local items = {
 		itemid = 3303,
 		type = "equip",
 		slot = "hand",
-		level = 95,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -18144,7 +18144,7 @@ local items = {
 		itemid = 3302,
 		type = "equip",
 		slot = "hand",
-		level = 60,
+		
 	},
 	{
 		-- dragon lance
@@ -18159,7 +18159,7 @@ local items = {
 		slot = "hand",
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -18169,7 +18169,7 @@ local items = {
 		slot = "hand",
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -18225,10 +18225,10 @@ local items = {
 		itemid = 3296,
 		type = "equip",
 		slot = "hand",
-		level = 120,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -18242,14 +18242,14 @@ local items = {
 		itemid = 3295,
 		type = "equip",
 		slot = "hand",
-		level = 30,
+		
 	},
 	{
 		-- bright sword
 		itemid = 3295,
 		type = "deequip",
 		slot = "hand",
-		level = 30,
+		
 	},
 	{
 		-- short sword
@@ -18328,7 +18328,7 @@ local items = {
 		itemid = 3288,
 		type = "equip",
 		slot = "hand",
-		level = 80,
+		
 	},
 	{
 		-- magic sword
@@ -18413,10 +18413,10 @@ local items = {
 		itemid = 3281,
 		type = "equip",
 		slot = "hand",
-		level = 55,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -18430,7 +18430,7 @@ local items = {
 		itemid = 3280,
 		type = "equip",
 		slot = "hand",
-		level = 30,
+		
 	},
 	{
 		-- fire sword
@@ -18443,10 +18443,10 @@ local items = {
 		itemid = 3279,
 		type = "equip",
 		slot = "hand",
-		level = 50,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -18460,10 +18460,10 @@ local items = {
 		itemid = 3278,
 		type = "equip",
 		slot = "hand",
-		level = 140,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -18501,10 +18501,10 @@ local items = {
 		itemid = 3275,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -18578,7 +18578,7 @@ local items = {
 		itemid = 3269,
 		type = "equip",
 		slot = "hand",
-		level = 25,
+		
 	},
 	{
 		-- halberd
@@ -18617,7 +18617,7 @@ local items = {
 		slot = "hand",
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -18631,10 +18631,10 @@ local items = {
 		itemid = 3265,
 		type = "equip",
 		slot = "hand",
-		level = 20,
+		
 		vocation = {
 			{ "Knight", true },
-			{ "Elite Knight" },
+			{ "Elite Knight" },			{ "Templar Knight" },
 		},
 	},
 	{
@@ -18735,8 +18735,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -18921,8 +18921,8 @@ local items = {
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{
@@ -19044,10 +19044,10 @@ local items = {
 		itemid = 3075,
 		type = "equip",
 		slot = "hand",
-		level = 13,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -19055,17 +19055,17 @@ local items = {
 		itemid = 3075,
 		type = "deequip",
 		slot = "hand",
-		level = 13,
+		
 	},
 	{
 		-- wand of vortex
 		itemid = 3074,
 		type = "equip",
 		slot = "hand",
-		level = 6,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -19073,17 +19073,17 @@ local items = {
 		itemid = 3074,
 		type = "deequip",
 		slot = "hand",
-		level = 6,
+		
 	},
 	{
 		-- wand of cosmic energy
 		itemid = 3073,
 		type = "equip",
 		slot = "hand",
-		level = 26,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -19091,17 +19091,17 @@ local items = {
 		itemid = 3073,
 		type = "deequip",
 		slot = "hand",
-		level = 26,
+		
 	},
 	{
 		-- wand of decay
 		itemid = 3072,
 		type = "equip",
 		slot = "hand",
-		level = 19,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -19109,17 +19109,17 @@ local items = {
 		itemid = 3072,
 		type = "deequip",
 		slot = "hand",
-		level = 19,
+		
 	},
 	{
 		-- wand of inferno
 		itemid = 3071,
 		type = "equip",
 		slot = "hand",
-		level = 33,
+		
 		vocation = {
 			{ "Sorcerer", true },
-			{ "Master Sorcerer" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
 		},
 	},
 	{
@@ -19127,17 +19127,17 @@ local items = {
 		itemid = 3071,
 		type = "deequip",
 		slot = "hand",
-		level = 33,
+		
 	},
 	{
 		-- moonlight rod
 		itemid = 3070,
 		type = "equip",
 		slot = "hand",
-		level = 13,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -19145,17 +19145,17 @@ local items = {
 		itemid = 3070,
 		type = "deequip",
 		slot = "hand",
-		level = 13,
+		
 	},
 	{
 		-- necrotic rod
 		itemid = 3069,
 		type = "equip",
 		slot = "hand",
-		level = 19,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -19163,17 +19163,17 @@ local items = {
 		itemid = 3069,
 		type = "deequip",
 		slot = "hand",
-		level = 19,
+		
 	},
 	{
 		-- hailstorm rod
 		itemid = 3067,
 		type = "equip",
 		slot = "hand",
-		level = 33,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -19181,17 +19181,17 @@ local items = {
 		itemid = 3067,
 		type = "deequip",
 		slot = "hand",
-		level = 33,
+		
 	},
 	{
 		-- snakebite rod
 		itemid = 3066,
 		type = "equip",
 		slot = "hand",
-		level = 6,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -19199,17 +19199,17 @@ local items = {
 		itemid = 3066,
 		type = "deequip",
 		slot = "hand",
-		level = 6,
+		
 	},
 	{
 		-- terra rod
 		itemid = 3065,
 		type = "equip",
 		slot = "hand",
-		level = 26,
+		
 		vocation = {
 			{ "Druid", true },
-			{ "Elder Druid" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -19217,7 +19217,7 @@ local items = {
 		itemid = 3065,
 		type = "deequip",
 		slot = "hand",
-		level = 26,
+		
 	},
 	{
 		-- gold ring
@@ -19239,8 +19239,8 @@ local items = {
 		vocation = {
 			{ "Sorcerer", true },
 			{ "Druid", true, true },
-			{ "Master Sorcerer" },
-			{ "Elder Druid" },
+			{ "Master Sorcerer" },			{ "Magus Sorcerer" },
+			{ "Elder Druid" },			{ "Arch Druid" },
 		},
 	},
 	{
@@ -19329,8 +19329,8 @@ local items = {
 		vocation = {
 			{ "Knight", true },
 			{ "Paladin", true, true },
-			{ "Elite Knight" },
-			{ "Royal Paladin" },
+			{ "Elite Knight" },			{ "Templar Knight" },
+			{ "Royal Paladin" },			{ "Holy Paladin" },
 		},
 	},
 	{

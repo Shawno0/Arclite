@@ -187,6 +187,45 @@ local function creatureSayCallback(npc, creature, type, message)
 	end
 	-- fim das opções armor/helmet/boots
 end
+
+-- Exalted
+local exaltNode = keywordHandler:addKeyword({ "exalt" }, StdModule.say, {
+	npcHandler = npcHandler,
+	onlyFocus = true,
+	text = "I can exalt you for 500000 gold coins. Do you want me to exalt you?",
+})
+exaltNode:addChildKeyword({ "yes" }, StdModule.exaltPlayer, {
+	npcHandler = npcHandler,
+	cost = 500000,
+	level = 100,
+	text = "Congratulations! You are now exalted.",
+})
+exaltNode:addChildKeyword({ "no" }, StdModule.say, {
+	npcHandler = npcHandler,
+	onlyFocus = true,
+	text = "Alright then, come back when you are ready.",
+	reset = true,
+})
+
+-- Dishonour
+local dishonourNode = keywordHandler:addKeyword({ "dishonour" }, StdModule.say, {
+	npcHandler = npcHandler,
+	onlyFocus = true,
+	text = "Do you want me to dishonour you?",
+})
+dishonourNode:addChildKeyword({ "yes" }, StdModule.dishonourPlayer, {
+	npcHandler = npcHandler,
+	cost = 0,
+	level = 0,
+	text = "You have been dishonoured. Come back when you are ready.",
+})
+dishonourNode:addChildKeyword({ "no" }, StdModule.say, {
+	npcHandler = npcHandler,
+	onlyFocus = true,
+	text = "Glad to hear it.",
+	reset = true,
+})
+
 -- Promotion
 local node1 = keywordHandler:addKeyword({ "promot" }, StdModule.say, {
 	npcHandler = npcHandler,

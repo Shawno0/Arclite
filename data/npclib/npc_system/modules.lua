@@ -119,6 +119,64 @@ if Modules == nil then
 		npcHandler:resetNpc(player)
 		return true
 	end
+	
+	function StdModule.exaltPlayer(npc, player, message, keywords, parameters, node)
+		local npcHandler = parameters.npcHandler
+		if npcHandler == nil then
+			error("StdModule.exaltPlayer called without any npcHandler instance.")
+		end
+
+		if not npcHandler:checkInteraction(npc, player) then
+			return false
+		end
+
+		if player:isPremium() or not parameters.premium then
+			local promotion = player:getVocation():getPromotion()
+			local isExalted = player:kv():get("exalted")
+			if not promotion or isExalted then
+				npcHandler:say("You are already exalted!", npc, player)
+			elseif player:getLevel() < parameters.level then
+				npcHandler:say(string.format("I am sorry, but I can only exalt you once you have reached level %d.", parameters.level), npc, player)
+			elseif not player:removeMoneyBank(parameters.cost) then
+				npcHandler:say("You do not have enough money!", npc, player)
+			else
+				npcHandler:say(parameters.text, npc, player)
+				player:setVocation(promotion)
+				player:kv():set("exalted", true)
+			end
+		else
+			npcHandler:say("You need a premium account in order to get exalted.", npc, player)
+		end
+		npcHandler:resetNpc(player)
+		return true
+	end
+	
+	function StdModule.dishonourPlayer(npc, player, message, keywords, parameters, node)
+		local npcHandler = parameters.npcHandler
+		if npcHandler == nil then
+			error("StdModule.dishonourPlayer called without any npcHandler instance.")
+		end
+
+		if not npcHandler:checkInteraction(npc, player) then
+			return false
+		end
+
+		if player:isPremium() or not parameters.premium then
+			local demotion = player:getVocation():getDemotion()
+			local isExalted = player:kv():get("exalted")
+			if not demotion or not isExalted then
+				npcHandler:say("You are not exalted!", npc, player)
+			else
+				npcHandler:say(parameters.text, npc, player)
+				player:setVocation(demotion)
+				player:kv():set("exalted", false)
+			end
+		else
+			npcHandler:say("You need a premium account in order to get exalted.", npc, player)
+		end
+		npcHandler:resetNpc(player)
+		return true
+	end
 
 	function StdModule.learnSpell(npc, player, message, keywords, parameters, node)
 		local npcHandler = parameters.npcHandler

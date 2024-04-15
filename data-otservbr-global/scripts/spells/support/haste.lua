@@ -31,7 +31,7 @@ end
 spell:name("Haste")
 spell:words("utani hur")
 spell:group("support")
-spell:vocation("druid;true", "elder druid;true", "arch druid;true", "knight;true", "elite knight;true", "paladin;true", "royal paladin;true", "sorcerer;true", "master sorcerer;true", "magus sorcerer;true")
+spell:vocation("druid;true", "elder druid;true", "arch druid;true", "knight;true", "elite knight;true", "templar knight;true", "paladin;true", "royal paladin;true", "holy paladin;true", "sorcerer;true", "master sorcerer;true", "magus sorcerer;true")
 spell:castSound(SOUND_EFFECT_TYPE_SPELL_HASTE)
 spell:id(6)
 spell:cooldown(2 * 1000)

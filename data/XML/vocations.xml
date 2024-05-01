@@ -124,7 +124,7 @@
 		<skill id="6" multiplier="1.1" />
 	</vocation>
 	<!-- <vocation id="12" clientid="15" baseid="4" name="Templar" description="a templar" magicshield="0" gaincap="25" gainhp="15" gainmana="5" gainhpticks="2000" gainhpamount="2" gainmanaticks="6000" gainmanaamount="2" manamultiplier="3.0" attackspeed="2000" basespeed="110" soulmax="200" gainsoulticks="15000" fromvoc="8"> -->
-	<vocation id="12" clientid="11" baseid="4" name="Templar Knight" description="a templar knight" magicshield="0" gaincap="25" gainhp="15" gainmana="5" gainhpticks="2000" gainhpamount="1" gainmanaticks="6000" gainmanaamount="2" manamultiplier="3.0" attackspeed="2000" basespeed="110" soulmax="200" gainsoulticks="15000" fromvoc="8">
+	<vocation id="12" clientid="11" baseid="4" name="Templar Knight" description="a templar knight" magicshield="0" gaincap="25" gainhp="15" gainmana="5" gainhpticks="3000" gainhpamount="2" gainmanaticks="6000" gainmanaamount="2" manamultiplier="3.0" attackspeed="2000" basespeed="110" soulmax="200" gainsoulticks="15000" fromvoc="8">
 		<formula meleeDamage="1.0" distDamage="1.0" magicDamage="1.0"  defense="1.0" armor="1.0" />
 		<skill id="0" multiplier="1.1" />
 		<skill id="1" multiplier="1.1" />

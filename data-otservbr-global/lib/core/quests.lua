@@ -6498,5 +6498,35 @@ if not Quests then
 				},
 			},
 		},
+		[49] = {
+			name = "The Golden Circle",
+			startStorageId = Storage.Quest.GoldenCircle.QuestLine,
+			startStorageValue = 1,
+			missions = {
+				[1] = {
+					name = "01 Becoming worthy",
+					storageId = Storage.Quest.GoldenCircle.Missions.BecomingWorthy,
+					missionId = 10500,
+					startValue = 1,
+					endValue = 2,
+					states = {
+						[1] = "Speak to King Tibianus about being Exalted.",
+						[2] = "You have been Exalted by the king, and proven yourself worthy of the challenge ahead.",
+					},
+				},
+				[2] = {
+					name = "02 Slaying the Beast",
+					storageId = Storage.Quest.GoldenCircle.Missions.SlayingTheBeast,
+					missionId = 10501,
+					startValue = 1,
+					endValue = 3,
+					states = {
+						[1] = "Commander Thomson has a perilous task to ask of you.",
+						[2] = "Slay the beast beyond the portal atop the tower, and discover the fate of Commander Thomson's men.",
+						[3] = "You have slain the beast, return to Commander Thomson to inform him of the fate of his men."
+					},
+				},
+			}
+		}
 	}
 end

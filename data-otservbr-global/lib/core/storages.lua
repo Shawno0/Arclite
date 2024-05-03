@@ -2925,6 +2925,16 @@ Storage = {
 		OnlineCoinsGain = 150002,
 		OnlineTokensGain = 150003,
 	},
+	
+	--Custom - from 75000
+
+	GoldenCircle = {
+		QuestLine = 75001,
+		Missions = {
+			BecomingWorthy = 75002,
+			SlayingTheBeast = 75003
+		}
+	}
 }
 
 GlobalStorage = {

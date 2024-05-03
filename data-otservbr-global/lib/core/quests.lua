@@ -6505,7 +6505,7 @@ if not Quests then
 			missions = {
 				[1] = {
 					name = "01 Becoming worthy",
-					storageId = Storage.Quest.GoldenCircle.Missions.BecomingWorthy,
+					storageId = Storage.GoldenCircle.Missions.BecomingWorthy,
 					missionId = 10500,
 					startValue = 1,
 					endValue = 2,
@@ -6516,7 +6516,7 @@ if not Quests then
 				},
 				[2] = {
 					name = "02 Slaying the Beast",
-					storageId = Storage.Quest.GoldenCircle.Missions.SlayingTheBeast,
+					storageId = Storage.GoldenCircle.Missions.SlayingTheBeast,
 					missionId = 10501,
 					startValue = 1,
 					endValue = 3,

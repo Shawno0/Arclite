@@ -6500,7 +6500,7 @@ if not Quests then
 		},
 		[49] = {
 			name = "The Golden Circle",
-			startStorageId = Storage.Quest.GoldenCircle.QuestLine,
+			startStorageId = Storage.GoldenCircle.QuestLine,
 			startStorageValue = 1,
 			missions = {
 				[1] = {

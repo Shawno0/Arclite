@@ -196,8 +196,8 @@ local exaltNode = keywordHandler:addKeyword({ "exalt" }, StdModule.say, {
 })
 exaltNode:addChildKeyword({ "yes" }, StdModule.exaltPlayer, {
 	npcHandler = npcHandler,
-	cost = 500000,
-	level = 100,
+	cost = 1000000,
+	level = 150,
 	text = "Congratulations! You are now exalted.",
 })
 exaltNode:addChildKeyword({ "no" }, StdModule.say, {

@@ -16,6 +16,7 @@ local config = {
 	[9510] = TOWNS_LIST.RATHLETON,
 	[9500] = TOWNS_LIST.ROSHAMUUL,
 	[9515] = TOWNS_LIST.ISSAVI,
+	[9520] = TOWNS_LIST.ARC_ISLE,
 }
 
 local citizen = MoveEvent()

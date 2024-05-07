@@ -1,4 +1,4 @@
-local internalNpcName = "Captain Bluebear"
+local internalNpcName = "Captain Cherry"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -11,12 +11,12 @@ npcConfig.walkInterval = 2000
 npcConfig.walkRadius = 2
 
 npcConfig.outfit = {
-	lookType = 129,
-	lookHead = 19,
-	lookBody = 69,
-	lookLegs = 125,
-	lookFeet = 50,
-	lookAddons = 0,
+	lookType = 133,
+	lookHead = 57,
+	lookBody = 113,
+	lookLegs = 95,
+	lookFeet = 113,
+	lookAddons = 2,
 }
 
 npcConfig.flags = {
@@ -26,7 +26,7 @@ npcConfig.flags = {
 npcConfig.voices = {
 	interval = 15000,
 	chance = 50,
-	{ text = "Passages to Carlin, Ab'Dendriel, Edron, Venore, Port Hope, Liberty Bay, Yalahar, Roshamuul, Krailos, Oramond, Svargrond and Arc Isle." },
+	{ text = "Passages to Carlin, Ab'Dendriel, Edron, Venore, Port Hope, Liberty Bay, Yalahar, Roshamuul, Krailos, Oramond and Svargrond." },
 }
 
 local keywordHandler = KeywordHandler:new()
@@ -85,13 +85,12 @@ addTravelKeyword("yalahar", 200, Position(32816, 31272, 6), nil, function(player
 end)
 addTravelKeyword("oramond", 150, Position(33479, 31985, 7))
 addTravelKeyword("krailos", 230, Position(33492, 31712, 6))
-addTravelKeyword("arc isle", 200, Position({32238, 33017, 6}))
 
 -- Kick
 keywordHandler:addKeyword({ "kick" }, StdModule.kick, { npcHandler = npcHandler, destination = { Position(32320, 32219, 6), Position(32321, 32210, 6) } })
 
 -- Basic
-keywordHandler:addKeyword({ "name" }, StdModule.say, { npcHandler = npcHandler, text = "My name is Captain Bluebear from the Royal Tibia Line." })
+keywordHandler:addKeyword({ "name" }, StdModule.say, { npcHandler = npcHandler, text = "My name is Captain Cherry from the Royal Tibia Line." })
 keywordHandler:addKeyword({ "job" }, StdModule.say, { npcHandler = npcHandler, text = "I am the captain of this sailing-ship." })
 keywordHandler:addKeyword({ "captain" }, StdModule.say, { npcHandler = npcHandler, text = "I am the captain of this sailing-ship." })
 keywordHandler:addKeyword({ "ship" }, StdModule.say, { npcHandler = npcHandler, text = "The Royal Tibia Line connects all seaside towns of Tibia." })

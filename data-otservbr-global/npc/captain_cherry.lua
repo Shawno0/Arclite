@@ -85,6 +85,7 @@ addTravelKeyword("yalahar", 200, Position(32816, 31272, 6), nil, function(player
 end)
 addTravelKeyword("oramond", 150, Position(33479, 31985, 7))
 addTravelKeyword("krailos", 230, Position(33492, 31712, 6))
+addTravelKeyword("thais", 150, Position(32311, 32210, 6))
 
 -- Kick
 keywordHandler:addKeyword({ "kick" }, StdModule.kick, { npcHandler = npcHandler, destination = { Position(32320, 32219, 6), Position(32321, 32210, 6) } })
@@ -113,7 +114,7 @@ keywordHandler:addKeyword({ "vega" }, StdModule.say, { npcHandler = npcHandler, 
 keywordHandler:addKeyword({ "darashia" }, StdModule.say, { npcHandler = npcHandler, text = "I'm not sailing there. This route is afflicted by a ghostship! However I've heard that Captain Fearless from Venore sails there." })
 keywordHandler:addKeyword({ "darama" }, StdModule.say, { npcHandler = npcHandler, text = "I'm not sailing there. This route is afflicted by a ghostship! However I've heard that Captain Fearless from Venore sails there." })
 keywordHandler:addKeyword({ "ghost" }, StdModule.say, { npcHandler = npcHandler, text = "Many people who sailed to Darashia never returned because they were attacked by a ghostship! I'll never sail there!" })
-keywordHandler:addKeyword({ "thais" }, StdModule.say, { npcHandler = npcHandler, text = "This is Thais. Where do you want to go?" })
+keywordHandler:addKeyword({ "arc isle" }, StdModule.say, { npcHandler = npcHandler, text = "This is Arc Isle. Where do you want to go?" })
 
 npcHandler:setMessage(MESSAGE_GREET, "Welcome on board, |PLAYERNAME|. Where can I {sail} you today?")
 npcHandler:setMessage(MESSAGE_FAREWELL, "Good bye. Recommend us if you were satisfied with our service.")
